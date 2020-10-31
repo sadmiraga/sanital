@@ -64,7 +64,7 @@
         </div>
     </div>
     </div>
-    {{HTML::script('mainLayoutJS.js')}}
+
 
     @yield('content')
     <script>
