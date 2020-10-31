@@ -23,3 +23,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name("home");
 
 Route::get('/index', 'HomeController@design');
+
+
+//reference routes
+Route::get('/adminReferences', 'referenceController@referenceIndex');
+Route::get('/addReference', 'referenceController@addReferenceExe');
