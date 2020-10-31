@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat" sans-serif;
+}
+li,
+.home,
+.equipment,
+.about {
+    font-family: "Montserrat" sans-serif;
+    color: #2f5596;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#overlay {
+    position: absolute;
+    /* color with alpha transparency */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+header {
+    background-color: rgba(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: visible;
+    padding: 2px 5%; /* Large padding which will shrink on scroll (using JS) */
+    transition: 400ms; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+}
+
+.language {
+    font-size: 15px;
+    padding-left: 20px;
+    opacity: 0.5;
+}
+
+.dropdown {
+    padding-top: 15px;
+    display: inline-block;
+}
+.dropdown-content {
+    list-style: none;
+    display: none;
+    color: white;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    transition: 500ms ease 0ms;
+    overflow: visible;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    transition: 500ms ease 0ms;
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.language:hover {
+    cursor: pointer;
+    transition: 200ms;
+    color: lightblue;
+    opacity: 1;
+}
+.logo {
+    height: 120px;
+    cursor: pointer;
+    margin-right: auto;
+    transition: 200ms;
+}
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    transition: all 300ms ease 0ms;
+    color: #223d6b;
+}
+
+#navbar-buttonID {
+    padding: 8px 25px;
+    background: linear-gradient(to right, #223d6b 50%, #2f5596 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    margin-left: 10px;
+    border: none;
+    transition: all 2s ease;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Montserrat" sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-button-text {
+    transform: skewX(20deg);
+    margin-bottom: 0;
+}
+
+#navbar-buttonID:hover {
+    background-position: left bottom;
+}
+
+.mobile-nav {
+    display: none;
+    background-color: #6aabc1;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    justify-content: flex-end;
+    overflow: visible;
+    padding: 2px 5%; /* Large padding which will shrink on scroll (using JS) */
+    transition: 400ms; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+}
+
+/* The sidepanel menu */
+.sidepanel {
+    height: 100%;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    color: #105561;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #6aabc1;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+    color: #6aabc1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+    background-color: #6aabc1;
+    cursor: pointer;
+    font-size: 50px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.mobile-nav-wrap-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 930px) {
+    .footer-wrap {
+        display: block;
+    }
+
+    .newslatter {
+        width: 100%;
+    }
+
+    .subscribe-button-div {
+        padding-top: 10px;
+        padding-left: 0%;
+    }
+
+    #navbarID {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+}
