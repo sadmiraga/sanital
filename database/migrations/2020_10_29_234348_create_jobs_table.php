@@ -14,10 +14,16 @@ class CreateJobsTable extends Migration
     public function up()
     {
         Schema::create('jobs', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
             $table->string('jobName');
             $table->longText('description');
             $table->timestamps();
+
+
+            //Facility Managment id=1
+            //Brandschutz/Wasserlöschanlagen id=2
+            //Belagsarbeiten und Bodenbeläge id=3
+
         });
     }
 
