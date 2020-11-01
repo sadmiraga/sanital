@@ -14508,6 +14508,7 @@ header {
   display: flex;
   margin-bottom: 5%;
   justify-content: space-between;
+  margin-top: 4%;
 }
 
 .innerJobContainer {
