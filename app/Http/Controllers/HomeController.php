@@ -44,4 +44,12 @@ class HomeController extends Controller
     public function belagsArbeiten() {
         return view( 'userExpirience.belags' );
     }
+
+    public function uberUns() {
+        return view( 'userExpirience.uberuns' );
+    }
+
+    public function jobs() {
+        return view( 'userExpirience.jobs' );
+    }
 }

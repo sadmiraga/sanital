@@ -36,10 +36,10 @@
         <img class="logo" id="logoID" src="/images/logoSanital.png" alt="logo">
         <nav>
             <ul class="nav-links">
-                <li class="navbar-li"><a id="home" href="#">Home</a></li>
-                <li class="navbar-li"><a id="uberuns" href="#">Über uns</a></li>
+                <li class="navbar-li"><a id="home" href="/index">Home</a></li>
+                <li class="navbar-li"><a id="uberuns" href="/uberuns">Über uns</a></li>
                 <li class="navbar-li"><a id="referenzen" href="#">Referenzen</a></li>
-                <li class="navbar-li"><a id="jobs" href="#">Jobs</a></li>
+                <li class="navbar-li"><a id="jobs" href="/jobs">Jobs</a></li>
                 <a href="#"><button id="navbar-buttonID">
                         <p class="navbar-button-text">Kontakt</p>
                     </button></a>
@@ -58,7 +58,7 @@
     </div>
     <div class="mobile-nav-wrap-outter">
         <div class="mobile-nav-wrap-inner">
-            <img class="logo" id="logoID" src="/images/logoSanital.png" alt="logo">
+            <img class="logo" id="logoID" src="/images/logoSanitalWhite.png" alt="logo">
 
             <button class="openbtn" onclick="openNav()">&#9776;</button>
         </div>

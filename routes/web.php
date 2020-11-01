@@ -36,6 +36,11 @@ Route::get('/brandschutz', 'HomeController@brandSchutz');
 
 Route::get('/belagsarbeiten', 'HomeController@belagsArbeiten');
 
+Route::get('/uberuns', 'HomeController@uberUns');
+
+Route::get('/jobs', 'HomeController@jobs');
+
+
 
 
 Route::get('/deleteReference/{referenceID}', 'referenceController@deleteReference');

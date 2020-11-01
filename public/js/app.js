@@ -49889,7 +49889,7 @@ function scrollFunction() {
     document.getElementById("navbarID").style.fontSize = "20px";
     document.getElementById("navbarID").style.padding = "2px 5%";
     document.getElementById("logoID").style.height = "80px";
-    document.getElementById("logoID").src = "/images/logoWhite.png";
+    document.getElementById("logoID").src = "/images/logoSanitalWhite.png";
     document.getElementById("home").style.color = "white";
     document.getElementById("home").style.marginTop = "20px";
     document.getElementById("uberuns").style.color = "white";
@@ -49996,7 +49996,7 @@ function scrollFunction() {
     document.getElementById("navbarID").style.fontSize = "20px";
     document.getElementById("navbarID").style.padding = "2px 5%";
     document.getElementById("logoID").style.height = "120px";
-    document.getElementById("logoID").src = "/images/logoBlack.png";
+    document.getElementById("logoID").src = "/images/logoSanital.png";
     document.getElementById("home").style.color = "#2F5596";
     document.getElementById("uberuns").style.color = "#2F5596";
     document.getElementById("referenzen").style.color = "#2F5596";
