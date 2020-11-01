@@ -14178,6 +14178,140 @@ header {
   justify-content: space-between;
 }
 
+.footer {
+  background: #2f5596;
+  display: block;
+}
+
+.inner-footer {
+  width: 100%;
+  margin: auto;
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.footer-items {
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.footer-items p {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25px;
+  color: #fff;
+}
+
+.footer-items h1 {
+  color: #fff;
+}
+
+.border1 {
+  height: 3px;
+  width: 40px;
+  background: #2f5596;
+  color: #2f5596;
+  background-color: #2f5596;
+  border: 0px;
+}
+
+.footer-ul {
+  list-style: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.footer-ul a {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.footer-text-logo-link .footer-text-logo-h1:hover {
+  color: #2f5596;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-text-logo-link:hover {
+  text-decoration: none;
+}
+
+.footer-ul .footer-link:hover {
+  color: #2f5596;
+  text-decoration: none;
+}
+
+.footer-ul .footer-li {
+  color: #fff;
+  margin: 10px 0;
+  height: 25px;
+}
+
+.footer-li i {
+  margin-right: 20px;
+}
+
+.social-media {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+.social-media i {
+  height: 25px;
+  width: 25px;
+  margin: 20px 10px;
+  padding: 4px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.social-media i:hover {
+  transform: scale(1.5);
+}
+
+.footer-bottom {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-size: 12px;
+  right: 100px;
+  text-align: right;
+}
+
+/* for tablet mode view */
+
+@media screen and (max-width: 1275px) {
+  .footer-items {
+    width: 50%;
+  }
+}
+
+/* for mobile screen view */
+
+@media screen and (max-width: 660px) {
+  .footer-items {
+    width: 100%;
+  }
+}
+
+/* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
+
+/* Thanks to Computer Conversations */
+
 @media only screen and (max-width: 930px) {
   .footer-wrap {
     display: block;
@@ -14201,8 +14335,73 @@ header {
   }
 }
 
-.overlay {
-  background: rgba(0, 0, 0, 0.6);
+.carousel-text-box {
+  padding: 100px;
+  position: absolute;
+  color: white;
+  top: 25%;
+  left: 30%;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.index-cards {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  cursor: pointer;
+  background-color: white;
+  min-width: 30%;
+  transform: translateY(-50px);
+  min-height: 500px;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+  transition: all 300ms ease-in;
+  transition: transform 330ms;
+  color: #2f5596;
+}
+
+.card h1 {
+  text-align: center;
+  padding-top: 50%;
+  transition: transform 330ms;
+}
+
+.card ul {
+  word-break: break-all;
+  font-size: 1rem;
+  position: relative;
+  left: 15%;
+  opacity: 0;
+  visibility: hidden;
+  list-style: none;
+  transition: opacity 1000ms;
+}
+
+.card:hover ul {
+  transform: translateY(-80px);
+  visibility: visible;
+  opacity: 1;
+}
+
+.card:hover li {
+  transition: transform 330ms;
+  color: white;
+}
+
+.card:hover {
+  background-color: #2f5596;
+  color: white;
+  transform: translateY(-110px);
+}
+
+.card:hover h1 {
+  transform: translateY(-100px);
+  transition: transform 330ms;
 }
 
 .content-categories-main {
