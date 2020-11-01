@@ -49892,14 +49892,15 @@ function scrollFunction() {
     document.getElementById("logoID").src = "/images/logoWhite.png";
     document.getElementById("home").style.color = "white";
     document.getElementById("home").style.marginTop = "20px";
-    document.getElementById("equipment").style.color = "white";
-    document.getElementById("about").style.color = "white";
-    document.getElementById("navbar-buttonID").style.backgroundColor = "white";
-    document.getElementById("navbar-buttonID").style.color = "#0088a9";
+    document.getElementById("uberuns").style.color = "white";
+    document.getElementById("referenzen").style.color = "white";
+    document.getElementById("jobs").style.color = "white";
+    document.getElementById("navbar-buttonID").style.background = "white";
+    document.getElementById("navbar-buttonID").style.color = "#2F5596";
 
     if (counter == 0) {
       var mouseOverSmallHome = function mouseOverSmallHome() {
-        document.getElementById("home").style.color = "#105561";
+        document.getElementById("home").style.color = "#223d6b";
       };
 
       var mouseOutSmallHome = function mouseOutSmallHome() {
@@ -49908,31 +49909,44 @@ function scrollFunction() {
 
 
       var mouseOverSmallEquipment = function mouseOverSmallEquipment() {
-        document.getElementById("equipment").style.color = "#105561";
+        document.getElementById("uberuns").style.color = "#223d6b";
       };
 
       var mouseOutSmallEquipment = function mouseOutSmallEquipment() {
-        document.getElementById("equipment").style.color = "white";
+        document.getElementById("uberuns").style.color = "white";
       }; //About animation small
 
 
       var mouseOverSmallAbout = function mouseOverSmallAbout() {
-        document.getElementById("about").style.color = "#105561";
+        document.getElementById("referenzen").style.color = "#223d6b";
       };
 
       var mouseOutSmallAbout = function mouseOutSmallAbout() {
-        document.getElementById("about").style.color = "white";
+        document.getElementById("referenzen").style.color = "white";
+      }; //Jobs
+
+
+      var mouseOverSmallJobs = function mouseOverSmallJobs() {
+        document.getElementById("jobs").style.color = "#223d6b";
+      };
+
+      var mouseOutSmallJobs = function mouseOutSmallJobs() {
+        document.getElementById("jobs").style.color = "white";
       }; //Contact-button animation small
 
 
       var mouseOverSmallContactBtn = function mouseOverSmallContactBtn() {
         document.getElementById("navbar-buttonID").style.color = "white";
-        document.getElementById("navbar-buttonID").style.backgroundColor = "#0088a9";
+        document.getElementById("navbar-buttonID").style.background = "linear-gradient(to right, white 50%, #223d6b 50%)";
+        document.getElementById("navbar-buttonID").style.backgroundSize = "200% 100%";
+        document.getElementById("navbar-buttonID").style.backgroundPosition = "right bottom";
       };
 
       var mouseOutSmallContactBtn = function mouseOutSmallContactBtn() {
-        document.getElementById("navbar-buttonID").style.color = "#0088a9";
-        document.getElementById("navbar-buttonID").style.backgroundColor = "white";
+        document.getElementById("navbar-buttonID").style.color = "#223d6b";
+        document.getElementById("navbar-buttonID").style.background = "linear-gradient(to left, #2F5596 50%, white 50%)";
+        document.getElementById("navbar-buttonID").style.backgroundSize = "200% 100%";
+        document.getElementById("navbar-buttonID").style.backgroundPosition = "left bottom";
       };
 
       //Home animation small
@@ -49944,20 +49958,28 @@ function scrollFunction() {
         mouseOutSmallHome();
       };
 
-      document.getElementById("equipment").onmouseover = function () {
+      document.getElementById("uberuns").onmouseover = function () {
         mouseOverSmallEquipment();
       };
 
-      document.getElementById("equipment").onmouseout = function () {
+      document.getElementById("uberuns").onmouseout = function () {
         mouseOutSmallEquipment();
       };
 
-      document.getElementById("about").onmouseover = function () {
+      document.getElementById("referenzen").onmouseover = function () {
         mouseOverSmallAbout();
       };
 
-      document.getElementById("about").onmouseout = function () {
+      document.getElementById("referenzen").onmouseout = function () {
         mouseOutSmallAbout();
+      };
+
+      document.getElementById("jobs").onmouseover = function () {
+        mouseOverSmallJobs();
+      };
+
+      document.getElementById("jobs").onmouseout = function () {
+        mouseOutSmallJobs();
       };
 
       document.getElementById("navbar-buttonID").onmouseover = function () {
@@ -49975,11 +49997,12 @@ function scrollFunction() {
     document.getElementById("navbarID").style.padding = "2px 5%";
     document.getElementById("logoID").style.height = "120px";
     document.getElementById("logoID").src = "/images/logoBlack.png";
-    document.getElementById("home").style.color = "#0088a9";
-    document.getElementById("equipment").style.color = "#0088a9";
-    document.getElementById("about").style.color = "#0088a9";
+    document.getElementById("home").style.color = "#2F5596";
+    document.getElementById("uberuns").style.color = "#2F5596";
+    document.getElementById("referenzen").style.color = "#2F5596";
+    document.getElementById("jobs").style.color = "#2F5596";
     document.getElementById("navbar-buttonID").style.color = "white";
-    document.getElementById("navbar-buttonID").style.backgroundColor = "#0088a9";
+    document.getElementById("navbar-buttonID").style.background = "#2F5596";
 
     if (counter == 1) {
       var mouseOverBigHome = function mouseOverBigHome() {
@@ -49987,36 +50010,49 @@ function scrollFunction() {
       };
 
       var mouseOutBigHome = function mouseOutBigHome() {
-        document.getElementById("home").style.color = "#0088a9";
+        document.getElementById("home").style.color = "#2F5596";
       }; //Equipment animation big
 
 
       var mouseOverBigEquipment = function mouseOverBigEquipment() {
-        document.getElementById("equipment").style.color = "black";
+        document.getElementById("uberuns").style.color = "black";
       };
 
       var mouseOutBigEquipment = function mouseOutBigEquipment() {
-        document.getElementById("equipment").style.color = "#0088a9";
+        document.getElementById("uberuns").style.color = "#2F5596";
       }; //About animation big
 
 
       var mouseOverBigAbout = function mouseOverBigAbout() {
-        document.getElementById("about").style.color = "black";
+        document.getElementById("referenzen").style.color = "black";
       };
 
       var mouseOutBigAbout = function mouseOutBigAbout() {
-        document.getElementById("about").style.color = "#0088a9";
+        document.getElementById("referenzen").style.color = "#2F5596";
+      }; //Jobs
+
+
+      var mouseOverBigJobs = function mouseOverBigJobs() {
+        document.getElementById("jobs").style.color = "black";
+      };
+
+      var mouseOutBigJobs = function mouseOutBigJobs() {
+        document.getElementById("jobs").style.color = "#2F5596";
       }; //Contact Button animation big
 
 
       var mouseOverBigContactBtn = function mouseOverBigContactBtn() {
         document.getElementById("navbar-buttonID").style.color = "white";
-        document.getElementById("navbar-buttonID").style.backgroundColor = "#105561";
+        document.getElementById("navbar-buttonID").style.background = "linear-gradient(to right, #2F5596 50%, #223d6b 50%)";
+        document.getElementById("navbar-buttonID").style.backgroundSize = "200% 100%";
+        document.getElementById("navbar-buttonID").style.backgroundPosition = "right bottom";
       };
 
       var mouseOutBigContactBtn = function mouseOutBigContactBtn() {
         document.getElementById("navbar-buttonID").style.color = "white";
-        document.getElementById("navbar-buttonID").style.backgroundColor = "#0088a9";
+        document.getElementById("navbar-buttonID").style.background = "linear-gradient(to left, #2F5596 50%, #223d6b 50%)";
+        document.getElementById("navbar-buttonID").style.backgroundSize = "200% 100%";
+        document.getElementById("navbar-buttonID").style.backgroundPosition = "left bottom";
       };
 
       //Home animation big
@@ -50028,20 +50064,28 @@ function scrollFunction() {
         mouseOutBigHome();
       };
 
-      document.getElementById("equipment").onmouseover = function () {
+      document.getElementById("uberuns").onmouseover = function () {
         mouseOverBigEquipment();
       };
 
-      document.getElementById("equipment").onmouseout = function () {
+      document.getElementById("uberuns").onmouseout = function () {
         mouseOutBigEquipment();
       };
 
-      document.getElementById("about").onmouseover = function () {
+      document.getElementById("referenzen").onmouseover = function () {
         mouseOverBigAbout();
       };
 
-      document.getElementById("about").onmouseout = function () {
+      document.getElementById("referenzen").onmouseout = function () {
         mouseOutBigAbout();
+      };
+
+      document.getElementById("jobs").onmouseover = function () {
+        mouseOverBigJobs();
+      };
+
+      document.getElementById("jobs").onmouseout = function () {
+        mouseOutBigJobs();
       };
 
       document.getElementById("navbar-buttonID").onmouseover = function () {
