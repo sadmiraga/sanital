@@ -3,11 +3,45 @@
 @section('content')
 
 
+<div class="jobsContainer">
+
+
+    <div class="innerJobContainer">
+        <h3 class="jobTitle"> Facility Managment </h3>
+        {!! Form::open(['url'=>'/editFacility', 'method'=> 'post' , 'enctype'=> 'multipart/form-data']) !!}
+            @csrf
+            <textarea class="jobDescription" name="description" cols="60" rows="20">{{$facility->description}}</textarea>
+            {!! Form::submit('sparen',['class'=>'btn btn-success', 'id'=>'submitButton','style'=>'width:100%;margin-left:0;margin-right:0;margin-top:0;background-color: #0a4c66b7;']) !!}
+        {!! Form::close() !!}
+    </div>
+
+    <div class="innerJobContainer">
+        <h3 class="jobTitle"> Brandschutz/Wasserlöschanlagen </h3>
+        {!! Form::open(['url'=>'/editBrandschutz', 'method'=> 'post' , 'enctype'=> 'multipart/form-data']) !!}
+            @csrf
+            <textarea class="jobDescription" name="description" cols="60" rows="20">{{$brandschutz->description}}</textarea>
+            {!! Form::submit('sparen',['class'=>'btn btn-success', 'id'=>'submitButton','style'=>'width:100%;margin-left:0;margin-right:0;margin-top:0;background-color: #0a4c66b7;']) !!}
+        {!! Form::close() !!}
+    </div>
+
+    <div class="innerJobContainer">
+        <h3 class="jobTitle"> Belagsarbeiten und Bodenbeläge </h3>
+        {!! Form::open(['url'=>'/editBelagsarbeiten', 'method'=> 'post' , 'enctype'=> 'multipart/form-data']) !!}
+            @csrf
+            <textarea class="jobDescription" name="description" cols="60" rows="20">{{$belagsarbeiten->description}}</textarea>
+            {!! Form::submit('sparen',['class'=>'btn btn-success', 'id'=>'submitButton','style'=>'width:100%;margin-left:0;margin-right:0;margin-top:0;background-color: #0a4c66b7;']) !!}
+        {!! Form::close() !!}
+    </div>
+
+</div>
+
+
+
 <div class="referenceForm">
 
     <h4 id="referenceHeader"> neue Referenz hinzufügen </h4>
 
-    @if (count($errors) > 0)
+    @if (count($errors) > 0 )
     <div id="erorrDiv" class = "alert alert-danger">
         <ul>
             @foreach ($errors->all() as $error)
@@ -15,6 +49,14 @@
             @endforeach
         </ul>
     </div>
+    @endif
+
+    @if(isset($categoryError))
+        <div id="erorrDiv" class = "alert alert-danger">
+            <ul>
+               {{$categoryError}}
+            </ul>
+        </div>
     @endif
 
 
