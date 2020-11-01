@@ -1,0 +1,92 @@
+.content-categories-main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.categtories-h1 {
+    font-size: 2rem;
+    color: #0088a9;
+    text-align: center;
+}
+.row {
+    padding-top: 10px;
+}
+#categories-col {
+    padding-top: 30px;
+    padding-right: 0;
+    max-width: 500px;
+    margin-bottom: 0px;
+}
+
+.text-block {
+    position: relative;
+    width: 100%;
+    bottom: 10%;
+    background-color: #0a4c66b7;
+    color: white;
+    text-align: center;
+    transition: all 300ms;
+}
+
+.functions {
+    display: flex;
+    margin-top: 0;
+    transform: translateY(-40px);
+}
+
+.functionButton {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+#edit {
+    background-color: #0a4c66b7;
+}
+
+#edit:hover {
+    background-color: #98afc7;
+    cursor: pointer;
+}
+
+#delete {
+    background-color: #0a4c66b7;
+}
+
+#delete:hover {
+    background-color: #98afc7;
+    cursor: pointer;
+}
+
+.referenceForm {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#referenceNameInput,
+#referenceImage,
+#submitButton,
+#erorrDiv,
+#referenceCategory {
+    width: 30%;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 1%;
+}
+
+#referenceHeader {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#inputLabel {
+    text-align: center;
+}
+
+.errorMessage {
+    list-style-type: none;
+    color: white;
+}

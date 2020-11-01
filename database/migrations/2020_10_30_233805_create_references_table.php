@@ -14,10 +14,13 @@ class CreateReferencesTable extends Migration
     public function up()
     {
         Schema::create('references', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
             $table->string('referenceName');
             $table->string('referenceImage');
             $table->timestamps();
+
+            $table->unsignedInteger('jobID')->unsigned();
+            $table->foreign('jobID')->references('id')->on('jobs');
         });
     }
 
