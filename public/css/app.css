@@ -14567,3 +14567,44 @@ header {
   color: #223d6b;
 }
 
+.jobsContainer {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1500px;
+  min-height: 600px;
+  display: flex;
+  margin-bottom: 5%;
+  justify-content: space-between;
+  margin-top: 4%;
+}
+
+.innerJobContainer {
+  min-width: 30%;
+  max-width: 30%;
+  height: 500px;
+}
+
+.jobDescription {
+  min-width: 100%;
+  max-width: 100px;
+  background-color: #98afc7;
+  color: white;
+}
+
+.jobTitle {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1100px) {
+  .jobsContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .innerJobContainer {
+    min-width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+}
+

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\reference;
+use App\Models\job;
 use League\CommonMark\Reference\ReferenceInterface;
 
 class referenceController extends Controller
@@ -12,9 +13,14 @@ class referenceController extends Controller
     //display reference index page
     public function referenceIndex()
     {
-
-        $references = reference::orderBy('created_at', 'desc')->paginate(6);
-        return view('admin.references')->with('references', $references);
+        $facility = job::find(1);
+        $brandschutz = job::find(2);
+        $belagsarbeiten = job::find(3);
+        $references = reference::orderBy('created_at', 'desc')->paginate(20);
+        return view('admin.references')->with('references', $references)
+            ->with('facility', $facility)
+            ->with('brandschutz', $brandschutz)
+            ->with('belagsarbeiten', $belagsarbeiten);
     }
 
 
@@ -31,6 +37,10 @@ class referenceController extends Controller
             'referenceImage.required' => 'Fügen Sie das entsprechende Bild als Referenz ein',
         ]);
 
+        if ($request->input('referenceCategory') == 0) {
+            $categoryError = "Bitte Kategorie auswahlen";
+            return redirect()->back()->with('categoryError ', $categoryError);
+        }
 
 
         //insert data into database
@@ -50,7 +60,7 @@ class referenceController extends Controller
         $reference->referenceName = $request->input('referenceName');
         $reference->jobID = $request->input('referenceCategory');
         $reference->save();
-        return redirect('/adminReferences');
+        return redirect('/admin');
     }
 
 
@@ -64,7 +74,7 @@ class referenceController extends Controller
 
         $reference->delete();
 
-        return redirect('/adminReferences');
+        return redirect('/admin');
     }
 
     public function editReferenceIndex($referenceID)
@@ -101,6 +111,6 @@ class referenceController extends Controller
         }
 
         $reference->save();
-        return redirect('/adminReferences');
+        return redirect('/admin');
     }
 }
