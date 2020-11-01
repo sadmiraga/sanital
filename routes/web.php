@@ -37,3 +37,6 @@ Route::get('/adminJobs', 'jobsController@jobsIndex');
 Route::post('/editFacility', 'jobsController@editFacility');
 Route::post('/editBrandschutz', 'jobsController@editBrandschutz');
 Route::post('/editBelagsarbeiten', 'jobsController@editBelagsarbeiten');
+
+//public routes
+Route::get('/references', 'referenceController@referencePublicIndex');

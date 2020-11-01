@@ -7,8 +7,16 @@ use App\Models\reference;
 use App\Models\job;
 use League\CommonMark\Reference\ReferenceInterface;
 
+use function Symfony\Component\String\b;
+
 class referenceController extends Controller
 {
+
+    public function referencePublicIndex()
+    {
+        $references = reference::orderBy('created_at', 'desc')->paginate(20);
+        return view('userExpirience.references')->with('references', $references);
+    }
 
     //display reference index page
     public function referenceIndex()
