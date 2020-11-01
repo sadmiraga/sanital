@@ -2,54 +2,66 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\job;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
- {
+{
     /**
-    * Create a new controller instance.
-    *
-    * @return void
-    */
+     * Create a new controller instance.
+     *
+     * @return void
+     */
 
     public function __construct()
- {
-        $this->middleware( 'auth' );
+    {
+        $this->middleware('auth');
     }
 
     /**
-    * Show the application dashboard.
-    *
-    * @return \Illuminate\Contracts\Support\Renderable
-    */
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
 
     public function index()
- {
-        return view( 'home' );
+    {
+        return view('home');
     }
 
     public function design()
- {
-        return view( 'userExpirience.index' );
+    {
+        return view('userExpirience.index');
     }
 
-    public function facilityManagment() {
-        return view( 'userExpirience.facilityManagment' );
+    public function facilityManagment()
+    {
+        return view('userExpirience.facilityManagment');
     }
 
-    public function brandSchutz() {
-        return view( 'userExpirience.brand' );
+    public function brandSchutz()
+    {
+        return view('userExpirience.brand');
     }
 
-    public function belagsArbeiten() {
-        return view( 'userExpirience.belags' );
+    public function belagsArbeiten()
+    {
+        return view('userExpirience.belags');
     }
 
-    public function uberUns() {
-        return view( 'userExpirience.uberuns' );
+    public function uberUns()
+    {
+        return view('userExpirience.uberuns');
     }
 
-    public function jobs() {
-        return view( 'userExpirience.jobs' );
+    public function jobs()
+    {
+        $facility = job::find(1);
+        $brandschutz = job::find(2);
+        $belagsarbeiten = job::find(3);
+        return view('userExpirience.jobs')
+            ->with('facility', $facility)
+            ->with('brandschutz', $brandschutz)
+            ->with('belagsarbeiten', $belagsarbeiten);
     }
 }

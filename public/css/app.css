@@ -14584,6 +14584,18 @@ header {
   height: 500px;
 }
 
+.publicJobDescription {
+  text-align: left;
+  margin-left: 5%;
+}
+
+#publicJobText {
+  background-color: white;
+  transform: translateY(-200px);
+  padding: 2%;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.603);
+}
+
 .jobDescription {
   min-width: 100%;
   max-width: 100px;
