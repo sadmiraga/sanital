@@ -1,0 +1,28 @@
+.hero-text-box {
+    transform: translateY(-400px);
+    background-color: white;
+    text-align: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.603);
+}
+
+.hero-text-box h1 {
+    font-size: 4rem;
+    color: #223d6b;
+}
+
+.brand-content {
+    box-shadow: 0 0 25px 0 #223d6b;
+    background-color: white;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-300px);
+    padding: 5%;
+}
+
+.brand-content h4 {
+    color: #223d6b;
+}

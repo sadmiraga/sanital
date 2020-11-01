@@ -32,4 +32,16 @@ class HomeController extends Controller
  {
         return view( 'userExpirience.index' );
     }
+
+    public function facilityManagment() {
+        return view( 'userExpirience.facilityManagment' );
+    }
+
+    public function brandSchutz() {
+        return view( 'userExpirience.brand' );
+    }
+
+    public function belagsArbeiten() {
+        return view( 'userExpirience.belags' );
+    }
 }

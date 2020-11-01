@@ -30,6 +30,14 @@ Route::get('/adminReferences', 'referenceController@referenceIndex');
 Route::post('/addReference', 'referenceController@addReferenceExe');
 Route::get('/index', 'HomeController@design');
 
+Route::get('/facility-managment', 'HomeController@facilityManagment');
+
+Route::get('/brandschutz', 'HomeController@brandSchutz');
+
+Route::get('/belagsarbeiten', 'HomeController@belagsArbeiten');
+
+
+
 Route::get('/deleteReference/{referenceID}', 'referenceController@deleteReference');
 Route::get('/editReference/{referenceID}', 'referenceController@editReferenceIndex');
 Route::post('/editReferenceExe', 'referenceController@editReferenceExe');
