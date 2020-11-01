@@ -14500,6 +14500,73 @@ header {
   color: white;
 }
 
+.hero-text-box {
+  transform: translateY(-400px);
+  background-color: white;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.603);
+}
+
+.hero-text-box h1 {
+  font-size: 4rem;
+  color: #223d6b;
+}
+
+.facility-hero img {
+  width: 100%;
+  height: auto;
+}
+
+.facility-content {
+  box-shadow: 0 0 25px 0 #223d6b;
+  background-color: white;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-200px);
+  padding: 5%;
+}
+
+.facility-content h2 {
+  color: #223d6b;
+}
+
+.facility-content p {
+  padding-left: 1%;
+}
+
+.hero-text-box {
+  transform: translateY(-400px);
+  background-color: white;
+  text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.603);
+}
+
+.hero-text-box h1 {
+  font-size: 4rem;
+  color: #223d6b;
+}
+
+.brand-content {
+  box-shadow: 0 0 25px 0 #223d6b;
+  background-color: white;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-300px);
+  padding: 5%;
+}
+
+.brand-content h4 {
+  color: #223d6b;
+}
+
 .jobsContainer {
   margin-right: auto;
   margin-left: auto;
@@ -14562,5 +14629,95 @@ header {
 
 .img_overlay:hover {
   background: rgba(10, 17, 149, 0);
+}
+
+.uberuns-hero .hero-text-box {
+  transform: translateY(-400px);
+  background-color: white;
+  text-align: center;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.603);
+}
+
+.hero-text-box h1 {
+  font-size: 4rem;
+  color: #223d6b;
+}
+
+.uberuns-content h2 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.uberuns-content {
+  box-shadow: 0 0 25px 0 #223d6b;
+  background-color: white;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-300px);
+  padding: 5%;
+}
+
+.uberuns-cat {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #223d6b;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.uberuns-content p {
+  font-size: 1.1rem;
+  padding-bottom: 2%;
+}
+
+.jobs-hero .hero-text-box {
+  transform: translateY(-400px);
+  background-color: white;
+  text-align: center;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.603);
+}
+
+.hero-text-box h1 {
+  font-size: 4rem;
+  color: #223d6b;
+}
+
+.uberuns-content h2 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.uberuns-content {
+  box-shadow: 0 0 25px 0 #223d6b;
+  background-color: white;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-300px);
+  padding: 5%;
+}
+
+.uberuns-cat {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #223d6b;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.uberuns-content p {
+  font-size: 1.1rem;
+  padding-bottom: 2%;
 }
 

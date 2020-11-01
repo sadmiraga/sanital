@@ -20,7 +20,7 @@
 </div>
 
 <div class="index-cards">
-    <div class="card">
+    <div class="card" onclick="window.location.href='/facility-managment'">
         <h1>Facility Managment</h1>
         <ul>
             <li>-Baureinigung</li>
@@ -31,7 +31,7 @@
             <li>-Liegenschaftss betreuunge</li>
         </ul>
     </div>
-    <div class="card">
+    <div class="card" onclick="window.location.href='/brandschutz'">
         <h1>Brandschutz/<br>
             Wasserlöschanlagen</h1>
         <ul>
@@ -43,7 +43,7 @@
         </ul>
 
     </div>
-    <div class="card">
+    <div class="card" onclick="window.location.href='/belagsarbeiten'">
         <h1>Belagsarbeiten<br>
             und Bodenbeläge</h1>
         <ul>
