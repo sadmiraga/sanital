@@ -25,26 +25,9 @@
 
     <input  id="referenceImage"  type="file" class="form-control" name="referenceImage">
 
-    <select class="form-control" name="referenceCategory" id="referenceCategory">
-
-        @if($reference->jobID == 1)
-            <option selected value="1" > Facility Managment </option>
-            <option value="2" > Brandschutz/Wasserlöschanlagen </option>
-            <option value="3" > Belagsarbeiten und Bodenbeläge </option>
-        @elseif($reference->jobID == 2)
-            <option value="1" > Facility Managment </option>
-            <option selected value="2" > Brandschutz/Wasserlöschanlagen </option>
-            <option value="3" > Belagsarbeiten und Bodenbeläge </option>
-        @elseif($reference->jobID == 3)
-            <option value="1" > Facility Managment </option>
-            <option value="2" > Brandschutz/Wasserlöschanlagen </option>
-            <option selected value="3" > Belagsarbeiten und Bodenbeläge </option>
-        @endif
+    <input type="hidden" id="custId" name="referenceCategory" value="{{$reference->jobID}}">
 
 
-
-
-    </select>
 
     {!! Form::submit('sparen',['class'=>'btn btn-success', 'id'=>'submitButton']) !!}
     {!! Form::close() !!}

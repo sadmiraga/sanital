@@ -19,7 +19,7 @@ class jobsController extends Controller
         $job = job::find(1);
         $job->description = $request->input('description');
         $job->save();
-        return redirect('/admin');
+        return redirect('/admin-facility');
     }
 
     public function editBrandschutz(Request $request)
@@ -27,7 +27,7 @@ class jobsController extends Controller
         $job = job::find(2);
         $job->description = $request->input('description');
         $job->save();
-        return redirect('/admin');
+        return redirect('/admin-brandschutz');
     }
 
     public function editBelagsarbeiten(Request $request)
@@ -35,6 +35,6 @@ class jobsController extends Controller
         $job = job::find(3);
         $job->description = $request->input('description');
         $job->save();
-        return redirect('/admin');
+        return redirect('/admin-belagsarbeiten');
     }
 }

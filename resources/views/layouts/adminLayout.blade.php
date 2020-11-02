@@ -39,9 +39,7 @@
                 <li class="navbar-li"><a id="uberuns" href="/admin-facility">Facility <br> Managment</a></li>
                 <li class="navbar-li"><a id="referenzen" href="/admin-brandschutz">Brandschutz <br>Wasserlöschanlagen</a></li>
                 <li class="navbar-li"><a id="jobs" href="/admin-belagsarbeiten">Belagsarbeiten <br> Bodenbeläge</a></li>
-                <a href="#"><button id="navbar-buttonID">
-                        <p class="navbar-button-text">Home</p>
-                    </button></a>
+
         </nav>
     </header>
 

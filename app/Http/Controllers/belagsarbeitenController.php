@@ -18,6 +18,6 @@ class belagsarbeitenController extends Controller
     {
         $references = reference::where('jobID', 3)->paginate(20);
         $belagsarbeiten = job::find(3);
-        return view('admin.facilityAdmin')->with('references', $references)->with('facility', $belagsarbeiten);
+        return view('admin.belagsarbeitenAdmin')->with('references', $references)->with('belagsarbeiten', $belagsarbeiten);
     }
 }

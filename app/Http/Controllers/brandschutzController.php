@@ -19,6 +19,6 @@ class brandschutzController extends Controller
     {
         $references = reference::where('jobID', 2)->paginate(20);
         $brandschutz = job::find(2);
-        return view('admin.facilityAdmin')->with('references', $references)->with('facility', $brandschutz);
+        return view('admin.brandschutzAdmin')->with('references', $references)->with('brandschutz', $brandschutz);
     }
 }
