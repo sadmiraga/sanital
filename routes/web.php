@@ -58,3 +58,19 @@ Route::post('/editBelagsarbeiten', 'jobsController@editBelagsarbeiten');
 
 //public routes
 Route::get('/references', 'referenceController@referencePublicIndex');
+Route::get('/kontakt', 'HomeController@kontakt');
+
+//facility routs
+Route::get('/facility-references', 'facilityController@references');
+
+//brandschutz routes
+Route::get('/brandschutz-references', 'brandschutzController@references');
+
+//belagsarbeiten routes
+Route::get('/belagsarbeiten-references', 'belagsarbeitenController@references');
+
+
+//admin routes
+Route::get('/admin-facility', 'facilityController@adminIndex');
+Route::get('/admin-brandschutz', 'brandschutzController@adminIndex');
+Route::get('/admin-belagsarbeiten', 'belagsarbeitenController@adminIndex');

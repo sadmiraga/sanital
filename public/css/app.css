@@ -14733,3 +14733,18 @@ header {
   padding-bottom: 2%;
 }
 
+.contactContainer {
+  display: flex;
+}
+
+.contactText {
+  margin-top: 3%;
+  width: 45%;
+}
+
+.innerJobContainerJustOne {
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+

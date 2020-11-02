@@ -64,4 +64,9 @@ class HomeController extends Controller
             ->with('brandschutz', $brandschutz)
             ->with('belagsarbeiten', $belagsarbeiten);
     }
+
+    public function kontakt()
+    {
+        return view('userExpirience.kontakt');
+    }
 }
