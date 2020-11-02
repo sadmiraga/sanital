@@ -6,16 +6,19 @@
 <div class="contactContainer">
 
     <div class="contactText">
-        <h3 class="contactTitle"> KONTAKT <h3>
-        <p> Sanical AG </p>
-        <p> 8152 Glattbrugg </p>
-        <p> Telefon 044/202 20 10 </p>
-        <p> E-Mail info@sanical-ag.ch </p>
+        <h3 class="contactTitle"> KONTAKT <h3> <br>
+        <p class="smallText"> Sanical AG </p> <br>
+        <p class="smallText"> 8152 Glattbrugg </p>
+        <p class="smallText"> Telefon 044/202 20 10 </p>
+        <p class="smallText"> E-Mail info@sanical-ag.ch </p>
+
+        <br>
 
 
-        <p> Offnungszeiten </p>
-        <p> Montag bis Freitag</p>
-        <p> 07:30-12:00 und 13:00 bis 17:00 Uhr </p>
+        <p class="smallText"> Offnungszeiten </p>
+        <br>
+        <p class="smallText"> Montag bis Freitag</p>
+        <p class="smallText"> 07:30-12:00 und 13:00 bis 17:00 Uhr </p>
     </div>
 
 
