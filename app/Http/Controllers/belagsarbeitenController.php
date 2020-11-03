@@ -20,4 +20,10 @@ class belagsarbeitenController extends Controller
         $belagsarbeiten = job::find(3);
         return view('admin.belagsarbeitenAdmin')->with('references', $references)->with('belagsarbeiten', $belagsarbeiten);
     }
+
+    public function job()
+    {
+        $belagsarbeiten = job::find(3);
+        return view('userExpirience.belagsarbeiten.belagsarbeitenJob')->with('belagsarbeiten', $belagsarbeiten);
+    }
 }

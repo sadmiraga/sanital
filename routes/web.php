@@ -62,12 +62,15 @@ Route::get('/kontakt', 'HomeController@kontakt');
 
 //facility routs
 Route::get('/facility-references', 'facilityController@references');
+Route::get('/facility-job', 'facilityController@job');
 
 //brandschutz routes
 Route::get('/brandschutz-references', 'brandschutzController@references');
+Route::get('/brandschutz-job', 'brandschutzController@job');
 
 //belagsarbeiten routes
 Route::get('/belagsarbeiten-references', 'belagsarbeitenController@references');
+Route::get('/belagsarbeiten-job', 'belagsarbeitenController@job');
 
 
 //admin routes

@@ -20,4 +20,10 @@ class facilityController extends Controller
         $facility = job::find(1);
         return view('admin.facilityAdmin')->with('references', $references)->with('facility', $facility);
     }
+
+    public function job()
+    {
+        $facility = job::find(1);
+        return view('userExpirience.facility.facilityJob')->with('facility', $facility);
+    }
 }
