@@ -21,4 +21,10 @@ class brandschutzController extends Controller
         $brandschutz = job::find(2);
         return view('admin.brandschutzAdmin')->with('references', $references)->with('brandschutz', $brandschutz);
     }
+
+    public function job()
+    {
+        $brandschutz = job::find(2);
+        return view('userExpirience.brandschutz.brandschutzJob')->with('brandschutz', $brandschutz);
+    }
 }
