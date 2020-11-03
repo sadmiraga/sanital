@@ -31,7 +31,7 @@
             <li>-Liegenschaftss betreuunge</li>
         </ul>
     </div>
-    <div class="card" onclick="window.location.href='/brandschutz'">
+    <div class="card" onclick="window.location.href='/brandschutz-wasserloschanlagen'">
         <h1>Brandschutz/<br>
             Wasserlöschanlagen</h1>
         <ul>
@@ -43,7 +43,7 @@
         </ul>
 
     </div>
-    <div class="card" onclick="window.location.href='/belagsarbeiten'">
+    <div class="card" onclick="window.location.href='/belagsarbeiten-und-bodenbelage'">
         <h1>Belagsarbeiten<br>
             und Bodenbeläge</h1>
         <ul>

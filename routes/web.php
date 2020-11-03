@@ -32,9 +32,9 @@ Route::get('/index', 'HomeController@design');
 
 Route::get('/facility-managment', 'HomeController@facilityManagment');
 
-Route::get('/brandschutz', 'HomeController@brandSchutz');
+Route::get('/brandschutz-wasserloschanlagen', 'HomeController@brandSchutz');
 
-Route::get('/belagsarbeiten', 'HomeController@belagsArbeiten');
+Route::get('/belagsarbeiten-und-bodenbelage', 'HomeController@belagsArbeiten');
 
 Route::get('/uberuns', 'HomeController@uberUns');
 
