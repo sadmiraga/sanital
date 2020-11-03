@@ -25,7 +25,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <!-- Scripts -->
-    <script type="text/javascript" src="{{URL::to('js/mainLayoutJS.js') }}"></script>
+    <script type="text/javascript" src="{{URL::to('js/facilityLayoutJS.js') }}"></script>
 
 </head>
 

@@ -1,4 +1,4 @@
-@extends('layouts.mainLayout')
+@extends('layouts.facilityLayout')
 
 @section('content')
 <div class="facility-hero">

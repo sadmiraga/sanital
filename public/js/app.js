@@ -49754,6 +49754,8 @@ var app = new Vue({
 
 __webpack_require__(/*! ./mainLayoutJS */ "./resources/js/mainLayoutJS.js");
 
+__webpack_require__(/*! ./facilityLayoutJS */ "./resources/js/facilityLayoutJS.js");
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -49867,6 +49869,247 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
+
+/***/ }),
+
+/***/ "./resources/js/facilityLayoutJS.js":
+/*!******************************************!*\
+  !*** ./resources/js/facilityLayoutJS.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    //small navbar
+    var counter = 0;
+    document.getElementById("navbarID").style.backgroundColor = "#c70a0c";
+    document.getElementById("navbarID").style.fontSize = "20px";
+    document.getElementById("navbarID").style.padding = "2px 5%";
+    document.getElementById("logoID").style.height = "80px";
+    document.getElementById("logoID").src = "/images/logoSanitalWhite.png";
+    document.getElementById("home").style.color = "white";
+    document.getElementById("home").style.marginTop = "20px";
+    document.getElementById("uberuns").style.color = "white";
+    document.getElementById("referenzen").style.color = "white";
+    document.getElementById("jobs").style.color = "white";
+    document.getElementById("navbar-buttonID").style.background = "white";
+    document.getElementById("navbar-buttonID").style.color = "#c70a0c";
+
+    if (counter == 0) {
+      var mouseOverSmallHome = function mouseOverSmallHome() {
+        document.getElementById("home").style.color = "#800000";
+      };
+
+      var mouseOutSmallHome = function mouseOutSmallHome() {
+        document.getElementById("home").style.color = "white";
+      }; //Equipment animation small
+
+
+      var mouseOverSmallEquipment = function mouseOverSmallEquipment() {
+        document.getElementById("uberuns").style.color = "#800000";
+      };
+
+      var mouseOutSmallEquipment = function mouseOutSmallEquipment() {
+        document.getElementById("uberuns").style.color = "white";
+      }; //About animation small
+
+
+      var mouseOverSmallAbout = function mouseOverSmallAbout() {
+        document.getElementById("referenzen").style.color = "#800000";
+      };
+
+      var mouseOutSmallAbout = function mouseOutSmallAbout() {
+        document.getElementById("referenzen").style.color = "white";
+      }; //Jobs
+
+
+      var mouseOverSmallJobs = function mouseOverSmallJobs() {
+        document.getElementById("jobs").style.color = "#800000";
+      };
+
+      var mouseOutSmallJobs = function mouseOutSmallJobs() {
+        document.getElementById("jobs").style.color = "white";
+      }; //Contact-button animation small
+
+
+      var mouseOverSmallContactBtn = function mouseOverSmallContactBtn() {
+        document.getElementById("navbar-buttonID").style.color = "white";
+        document.getElementById("navbar-buttonID").style.background = "linear-gradient(to right, white 50%, #800000 50%)";
+        document.getElementById("navbar-buttonID").style.backgroundSize = "200% 100%";
+        document.getElementById("navbar-buttonID").style.backgroundPosition = "right bottom";
+      };
+
+      var mouseOutSmallContactBtn = function mouseOutSmallContactBtn() {
+        document.getElementById("navbar-buttonID").style.color = "#223d6b";
+        document.getElementById("navbar-buttonID").style.background = "linear-gradient(to left, #800000 50%, white 50%)";
+        document.getElementById("navbar-buttonID").style.backgroundSize = "200% 100%";
+        document.getElementById("navbar-buttonID").style.backgroundPosition = "left bottom";
+      };
+
+      //Home animation small
+      document.getElementById("home").onmouseover = function () {
+        mouseOverSmallHome();
+      };
+
+      document.getElementById("home").onmouseout = function () {
+        mouseOutSmallHome();
+      };
+
+      document.getElementById("uberuns").onmouseover = function () {
+        mouseOverSmallEquipment();
+      };
+
+      document.getElementById("uberuns").onmouseout = function () {
+        mouseOutSmallEquipment();
+      };
+
+      document.getElementById("referenzen").onmouseover = function () {
+        mouseOverSmallAbout();
+      };
+
+      document.getElementById("referenzen").onmouseout = function () {
+        mouseOutSmallAbout();
+      };
+
+      document.getElementById("jobs").onmouseover = function () {
+        mouseOverSmallJobs();
+      };
+
+      document.getElementById("jobs").onmouseout = function () {
+        mouseOutSmallJobs();
+      };
+
+      document.getElementById("navbar-buttonID").onmouseover = function () {
+        mouseOverSmallContactBtn();
+      };
+
+      document.getElementById("navbar-buttonID").onmouseout = function () {
+        mouseOutSmallContactBtn();
+      };
+    }
+  } else {
+    counter = 1;
+    document.getElementById("navbarID").style.backgroundColor = "rgba(255, 255, 255)";
+    document.getElementById("navbarID").style.fontSize = "20px";
+    document.getElementById("navbarID").style.padding = "2px 5%";
+    document.getElementById("logoID").style.height = "120px";
+    document.getElementById("logoID").src = "/images/logoSanital.png";
+    document.getElementById("home").style.color = "#c70a0c";
+    document.getElementById("uberuns").style.color = "#c70a0c";
+    document.getElementById("referenzen").style.color = "#c70a0c";
+    document.getElementById("jobs").style.color = "#c70a0c";
+    document.getElementById("navbar-buttonID").style.color = "white";
+    document.getElementById("navbar-buttonID").style.background = "#c70a0c";
+
+    if (counter == 1) {
+      var mouseOverBigHome = function mouseOverBigHome() {
+        document.getElementById("home").style.color = "black";
+      };
+
+      var mouseOutBigHome = function mouseOutBigHome() {
+        document.getElementById("home").style.color = "#c70a0c";
+      }; //Equipment animation big
+
+
+      var mouseOverBigEquipment = function mouseOverBigEquipment() {
+        document.getElementById("uberuns").style.color = "black";
+      };
+
+      var mouseOutBigEquipment = function mouseOutBigEquipment() {
+        document.getElementById("uberuns").style.color = "#c70a0c";
+      }; //About animation big
+
+
+      var mouseOverBigAbout = function mouseOverBigAbout() {
+        document.getElementById("referenzen").style.color = "black";
+      };
+
+      var mouseOutBigAbout = function mouseOutBigAbout() {
+        document.getElementById("referenzen").style.color = "#c70a0c";
+      }; //Jobs
+
+
+      var mouseOverBigJobs = function mouseOverBigJobs() {
+        document.getElementById("jobs").style.color = "black";
+      };
+
+      var mouseOutBigJobs = function mouseOutBigJobs() {
+        document.getElementById("jobs").style.color = "#c70a0c";
+      }; //Contact Button animation big
+
+
+      var mouseOverBigContactBtn = function mouseOverBigContactBtn() {
+        document.getElementById("navbar-buttonID").style.color = "white";
+        document.getElementById("navbar-buttonID").style.background = "linear-gradient(to right, #c70a0c 50%, #800000 50%)";
+        document.getElementById("navbar-buttonID").style.backgroundSize = "200% 100%";
+        document.getElementById("navbar-buttonID").style.backgroundPosition = "right bottom";
+      };
+
+      var mouseOutBigContactBtn = function mouseOutBigContactBtn() {
+        document.getElementById("navbar-buttonID").style.color = "white";
+        document.getElementById("navbar-buttonID").style.background = "linear-gradient(to left, #c70a0c 50%, #800000 50%)";
+        document.getElementById("navbar-buttonID").style.backgroundSize = "200% 100%";
+        document.getElementById("navbar-buttonID").style.backgroundPosition = "left bottom";
+      };
+
+      //Home animation big
+      document.getElementById("home").onmouseover = function () {
+        mouseOverBigHome();
+      };
+
+      document.getElementById("home").onmouseout = function () {
+        mouseOutBigHome();
+      };
+
+      document.getElementById("uberuns").onmouseover = function () {
+        mouseOverBigEquipment();
+      };
+
+      document.getElementById("uberuns").onmouseout = function () {
+        mouseOutBigEquipment();
+      };
+
+      document.getElementById("referenzen").onmouseover = function () {
+        mouseOverBigAbout();
+      };
+
+      document.getElementById("referenzen").onmouseout = function () {
+        mouseOutBigAbout();
+      };
+
+      document.getElementById("jobs").onmouseover = function () {
+        mouseOverBigJobs();
+      };
+
+      document.getElementById("jobs").onmouseout = function () {
+        mouseOutBigJobs();
+      };
+
+      document.getElementById("navbar-buttonID").onmouseover = function () {
+        mouseOverBigContactBtn();
+      };
+
+      document.getElementById("navbar-buttonID").onmouseout = function () {
+        mouseOutBigContactBtn();
+      };
+    }
+  }
+}
+
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "50%";
+}
+/* Set the width of the sidebar to 0 (hide it) */
+
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
 
 /***/ }),
 
@@ -50129,8 +50372,8 @@ function closeNav() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\vela\Desktop\screenshoot\sanital\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\vela\Desktop\screenshoot\sanital\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\User\Documents\GitHub\sanital\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\User\Documents\GitHub\sanital\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
