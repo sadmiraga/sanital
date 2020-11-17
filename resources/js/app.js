@@ -32,5 +32,4 @@ const app = new Vue({
 });
 
 require('./mainLayoutJS');
-require('./facilityLayoutJS');
 

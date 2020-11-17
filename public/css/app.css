@@ -13962,9 +13962,12 @@ li,
 .equipment,
 .about {
   font-family: "Montserrat" sans-serif;
-  color: #2f5596;
   font-size: 20px;
   text-decoration: none;
+}
+
+header a {
+  color: #223d6b;
 }
 
 #overlay {
@@ -17346,7 +17349,7 @@ li,
 .equipment,
 .about {
   font-family: "Montserrat" sans-serif;
-  color: #c70a0c;
+  color: white;
   font-size: 20px;
   text-decoration: none;
 }
@@ -17358,7 +17361,7 @@ li,
 }
 
 header {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: flex-end;
@@ -17405,7 +17408,7 @@ header {
 
 #navbar-buttonID {
   padding: 8px 25px;
-  background: linear-gradient(to right, #223d6b 50%, #c70a0c 50%);
+  background: linear-gradient(to right, #223d6b 50%, #2f5596 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   margin-left: 10px;
@@ -17516,7 +17519,7 @@ header {
 }
 
 .footer {
-  background: #c70a0c;
+  background: #2f5596;
   display: block;
 }
 
@@ -17551,9 +17554,9 @@ header {
 .border1 {
   height: 3px;
   width: 40px;
-  background: #c70a0c;
-  color: #c70a0c;
-  background-color: #c70a0c;
+  background: #2f5596;
+  color: #2f5596;
+  background-color: #2f5596;
   border: 0px;
 }
 
@@ -17572,7 +17575,7 @@ header {
 }
 
 .footer-text-logo-link .footer-text-logo-h1:hover {
-  color: #c70a0c;
+  color: #2f5596;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -17582,7 +17585,7 @@ header {
 }
 
 .footer-ul .footer-link:hover {
-  color: #c70a0c;
+  color: #2f5596;
   text-decoration: none;
 }
 
@@ -17688,6 +17691,10 @@ header {
   margin-right: auto;
   display: flex;
   justify-content: space-between;
+}
+
+.card img {
+  display: none;
 }
 
 .card {
@@ -17855,6 +17862,8 @@ header {
 .facility-hero img {
   width: 100%;
   height: auto;
+  top: -150px;
+  position: relative;
 }
 
 .facility-content {

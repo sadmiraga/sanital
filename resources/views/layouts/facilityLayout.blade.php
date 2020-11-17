@@ -12,7 +12,6 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
 
 
     <!-- Fonts -->
@@ -24,8 +23,6 @@
     <!-- StAyles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <!-- Scripts -->
-    <script type="text/javascript" src="{{URL::to('js/facilityLayoutJS.js') }}"></script>
 
 </head>
 
@@ -33,7 +30,7 @@
 
     <!-- Navbar -->
     <header id="navbarID">
-        <img class="logo" id="logoID" src="/images/logoSanital.png" alt="logo">
+        <img class="logo" id="logoID" src="/images/logoSanitalWhite.png" alt="logo">
         <nav>
             <ul class="nav-links">
                 <li class="navbar-li"><a id="home" href="/index">Home</a></li>

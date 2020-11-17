@@ -21,6 +21,7 @@
 
 <div class="index-cards">
     <div class="card" onclick="window.location.href='/facility-managment'">
+        <img src="/images/facility-hero.png" alt="">
         <h1>Facility Managment</h1>
         <ul>
             <li>-Baureinigung</li>

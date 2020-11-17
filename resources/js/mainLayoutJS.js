@@ -15,7 +15,6 @@ function scrollFunction() {
         document.getElementById("home").style.marginTop = "20px";
         document.getElementById("uberuns").style.color = "white";
         document.getElementById("referenzen").style.color = "white";
-        document.getElementById("jobs").style.color = "white";
         document.getElementById("navbar-buttonID").style.background = "white";
         document.getElementById("navbar-buttonID").style.color = "#2F5596";
 
@@ -68,30 +67,6 @@ function scrollFunction() {
                 document.getElementById("referenzen").style.color = "white";
             }
 
-            //Jobs
-            document.getElementById("jobs").onmouseover = function() {
-                mouseOverSmallJobs()
-            };
-            document.getElementById("jobs").onmouseout = function() {
-                mouseOutSmallJobs()
-            };
-
-            function mouseOverSmallJobs() {
-                document.getElementById("jobs").style.color = "#223d6b";
-            }
-
-            function mouseOutSmallJobs() {
-                document.getElementById("jobs").style.color = "white";
-            }
-
-            //Contact-button animation small
-            document.getElementById("navbar-buttonID").onmouseover = function() {
-                mouseOverSmallContactBtn()
-            };
-            document.getElementById("navbar-buttonID").onmouseout = function() {
-                mouseOutSmallContactBtn()
-            };
-
             function mouseOverSmallContactBtn() {
                 document.getElementById("navbar-buttonID").style.color = "white";
                 document.getElementById("navbar-buttonID").style.background = "linear-gradient(to right, white 50%, #223d6b 50%)";
@@ -118,7 +93,6 @@ function scrollFunction() {
         document.getElementById("home").style.color = "#2F5596";
         document.getElementById("uberuns").style.color = "#2F5596";
         document.getElementById("referenzen").style.color = "#2F5596";
-        document.getElementById("jobs").style.color = "#2F5596";
         document.getElementById("navbar-buttonID").style.color = "white";
         document.getElementById("navbar-buttonID").style.background = "#2F5596";
         if (counter == 1) {
@@ -172,20 +146,6 @@ function scrollFunction() {
 
             //Jobs
 
-            document.getElementById("jobs").onmouseover = function() {
-                mouseOverBigJobs()
-            };
-            document.getElementById("jobs").onmouseout = function() {
-                mouseOutBigJobs()
-            };
-
-            function mouseOverBigJobs() {
-                document.getElementById("jobs").style.color = "black";
-            }
-
-            function mouseOutBigJobs() {
-                document.getElementById("jobs").style.color = "#2F5596";
-            }
 
             //Contact Button animation big
             document.getElementById("navbar-buttonID").onmouseover = function() {

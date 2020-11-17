@@ -6,207 +6,207 @@ function scrollFunction() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         //small navbar
         var counter = 0;
-        document.getElementById("navbarID").style.backgroundColor = "#c70a0c";
-        document.getElementById("navbarID").style.fontSize = "20px";
-        document.getElementById("navbarID").style.padding = "2px 5%";
-        document.getElementById("logoID").style.height = "80px";
-        document.getElementById("logoID").src = "/images/logoSanitalWhite.png";
-        document.getElementById("home").style.color = "white";
-        document.getElementById("home").style.marginTop = "20px";
-        document.getElementById("uberuns").style.color = "white";
-        document.getElementById("referenzen").style.color = "white";
-        document.getElementById("jobs").style.color = "white";
-        document.getElementById("navbar-buttonID").style.background = "white";
-        document.getElementById("navbar-buttonID").style.color = "#c70a0c";
+        document.getElementById("navbarID-facility").style.backgroundColor = "#c70a0c";
+        document.getElementById("navbarID-facility").style.fontSize = "20px";
+        document.getElementById("navbarID-facility").style.padding = "2px 5%";
+        document.getElementById("logoID-facility").style.height = "80px";
+        document.getElementById("logoID-facility").src = "/images/logoSanitalWhite.png";
+        document.getElementById("home-facility").style.color = "white";
+        document.getElementById("home-facility").style.marginTop = "20px";
+        document.getElementById("uberuns-facility").style.color = "white";
+        document.getElementById("referenzen-facility").style.color = "white";
+        document.getElementById("jobs-facility").style.color = "white";
+        document.getElementById("navbar-buttonID-facility").style.background = "white";
+        document.getElementById("navbar-buttonID-facility").style.color = "#c70a0c";
 
         if (counter == 0) {
             //Home animation small
-            document.getElementById("home").onmouseover = function() {
-                mouseOverSmallHome()
+            document.getElementById("home-facility").onmouseover = function() {
+                mouseOverSmallHomeFacility()
             };
-            document.getElementById("home").onmouseout = function() {
-                mouseOutSmallHome()
+            document.getElementById("home-facility").onmouseout = function() {
+                mouseOutSmallHomeFacility()
             };
 
-            function mouseOverSmallHome() {
-                document.getElementById("home").style.color = "#800000";
+            function mouseOverSmallHomeFacility() {
+                document.getElementById("home-facility").style.color = "#800000";
 
             }
 
-            function mouseOutSmallHome() {
-                document.getElementById("home").style.color = "white";
+            function mouseOutSmallHomeFacility() {
+                document.getElementById("home-facility").style.color = "white";
             }
             //Equipment animation small
-            document.getElementById("uberuns").onmouseover = function() {
-                mouseOverSmallEquipment()
+            document.getElementById("uberuns-facility").onmouseover = function() {
+                mouseOverSmallEquipmentFacility()
             };
-            document.getElementById("uberuns").onmouseout = function() {
-                mouseOutSmallEquipment()
+            document.getElementById("uberuns-facility").onmouseout = function() {
+                mouseOutSmallEquipmentFacility()
             };
 
-            function mouseOverSmallEquipment() {
-                document.getElementById("uberuns").style.color = "#800000";
+            function mouseOverSmallEquipmentFacility() {
+                document.getElementById("uberuns-facility").style.color = "#800000";
             }
 
-            function mouseOutSmallEquipment() {
-                document.getElementById("uberuns").style.color = "white";
+            function mouseOutSmallEquipmentFacility() {
+                document.getElementById("uberuns-facility").style.color = "white";
             }
 
             //About animation small
-            document.getElementById("referenzen").onmouseover = function() {
-                mouseOverSmallAbout()
+            document.getElementById("referenzen-facility").onmouseover = function() {
+                mouseOverSmallAboutReferenzen()
             };
-            document.getElementById("referenzen").onmouseout = function() {
-                mouseOutSmallAbout()
+            document.getElementById("referenzen-facility").onmouseout = function() {
+                mouseOutSmallAboutReferenzen()
             };
 
-            function mouseOverSmallAbout() {
-                document.getElementById("referenzen").style.color = "#800000";
+            function mouseOverSmallAboutReferenzen() {
+                document.getElementById("referenzen-facility").style.color = "#800000";
             }
 
-            function mouseOutSmallAbout() {
-                document.getElementById("referenzen").style.color = "white";
+            function mouseOutSmallAboutReferenzen() {
+                document.getElementById("referenzen-facility").style.color = "white";
             }
 
             //Jobs
-            document.getElementById("jobs").onmouseover = function() {
-                mouseOverSmallJobs()
+            document.getElementById("jobs-facility").onmouseover = function() {
+                mouseOverSmallJobsFacility()
             };
-            document.getElementById("jobs").onmouseout = function() {
-                mouseOutSmallJobs()
+            document.getElementById("jobs-facility").onmouseout = function() {
+                mouseOutSmallJobsFacility()
             };
 
-            function mouseOverSmallJobs() {
-                document.getElementById("jobs").style.color = "#800000";
+            function mouseOverSmallJobsFacility() {
+                document.getElementById("jobs-facility").style.color = "#800000";
             }
 
-            function mouseOutSmallJobs() {
-                document.getElementById("jobs").style.color = "white";
+            function mouseOutSmallJobsFacility() {
+                document.getElementById("jobs-facility").style.color = "white";
             }
 
             //Contact-button animation small
-            document.getElementById("navbar-buttonID").onmouseover = function() {
-                mouseOverSmallContactBtn()
+            document.getElementById("navbar-buttonID-facility").onmouseover = function() {
+                mouseOverSmallContactBtnFacility()
             };
-            document.getElementById("navbar-buttonID").onmouseout = function() {
-                mouseOutSmallContactBtn()
+            document.getElementById("navbar-buttonID-facility").onmouseout = function() {
+                mouseOutSmallContactBtnFacility()
             };
 
-            function mouseOverSmallContactBtn() {
-                document.getElementById("navbar-buttonID").style.color = "white";
-                document.getElementById("navbar-buttonID").style.background = "linear-gradient(to right, white 50%, #800000 50%)";
-                document.getElementById("navbar-buttonID").style.backgroundSize = "200% 100%";
-                document.getElementById("navbar-buttonID").style.backgroundPosition = "right bottom";
+            function mouseOverSmallContactBtnFacility() {
+                document.getElementById("navbar-buttonID-facility").style.color = "white";
+                document.getElementById("navbar-buttonID-facility").style.background = "linear-gradient(to right, white 50%, #800000 50%)";
+                document.getElementById("navbar-buttonID-facility").style.backgroundSize = "200% 100%";
+                document.getElementById("navbar-buttonID-facility").style.backgroundPosition = "right bottom";
             }
 
-            function mouseOutSmallContactBtn() {
-                document.getElementById("navbar-buttonID").style.color = "#223d6b";
-                document.getElementById("navbar-buttonID").style.background = "linear-gradient(to left, #800000 50%, white 50%)";
-                document.getElementById("navbar-buttonID").style.backgroundSize = "200% 100%";
-                document.getElementById("navbar-buttonID").style.backgroundPosition = "left bottom";
+            function mouseOutSmallContactBtnFacility() {
+                document.getElementById("navbar-buttonID-facility").style.color = "#223d6b";
+                document.getElementById("navbar-buttonID-facility").style.background = "linear-gradient(to left, #800000 50%, white 50%)";
+                document.getElementById("navbar-buttonID-facility").style.backgroundSize = "200% 100%";
+                document.getElementById("navbar-buttonID-facility").style.backgroundPosition = "left bottom";
 
             }
         }
 
     } else {
         counter = 1;
-        document.getElementById("navbarID").style.backgroundColor = "rgba(255, 255, 255)";
-        document.getElementById("navbarID").style.fontSize = "20px";
-        document.getElementById("navbarID").style.padding = "2px 5%";
-        document.getElementById("logoID").style.height = "120px";
-        document.getElementById("logoID").src = "/images/logoSanital.png";
-        document.getElementById("home").style.color = "#c70a0c";
-        document.getElementById("uberuns").style.color = "#c70a0c";
-        document.getElementById("referenzen").style.color = "#c70a0c";
-        document.getElementById("jobs").style.color = "#c70a0c";
-        document.getElementById("navbar-buttonID").style.color = "white";
-        document.getElementById("navbar-buttonID").style.background = "#c70a0c";
+        document.getElementById("navbarID-facility").style.backgroundColor = "rgba(255, 255, 255)";
+        document.getElementById("navbarID-facility").style.fontSize = "20px";
+        document.getElementById("navbarID-facility").style.padding = "2px 5%";
+        document.getElementById("logoID-facility").style.height = "120px";
+        document.getElementById("logoID-facility").src = "/images/logoSanitalRed.png";
+        document.getElementById("home-facility").style.color = "#c70a0c";
+        document.getElementById("uberuns-facility").style.color = "#c70a0c";
+        document.getElementById("referenzen-facility").style.color = "#c70a0c";
+        document.getElementById("jobs-facility").style.color = "#c70a0c";
+        document.getElementById("navbar-buttonID-facility").style.color = "white";
+        document.getElementById("navbar-buttonID-facility").style.background = "#c70a0c";
         if (counter == 1) {
             //Home animation big
-            document.getElementById("home").onmouseover = function() {
-                mouseOverBigHome()
+            document.getElementById("home-facility").onmouseover = function() {
+                mouseOverBigHomeFacility()
             };
-            document.getElementById("home").onmouseout = function() {
-                mouseOutBigHome()
+            document.getElementById("home-facility").onmouseout = function() {
+                mouseOutBigHomeFacility()
             };
 
-            function mouseOverBigHome() {
-                document.getElementById("home").style.color = "black";
+            function mouseOverBigHomeFacility() {
+                document.getElementById("home-facility").style.color = "black";
             }
 
-            function mouseOutBigHome() {
-                document.getElementById("home").style.color = "#c70a0c";
+            function mouseOutBigHomeFacility() {
+                document.getElementById("home-facility").style.color = "#c70a0c";
             }
 
             //Equipment animation big
-            document.getElementById("uberuns").onmouseover = function() {
-                mouseOverBigEquipment()
+            document.getElementById("uberuns-facility").onmouseover = function() {
+                mouseOverBigEquipmentFacility()
             };
-            document.getElementById("uberuns").onmouseout = function() {
-                mouseOutBigEquipment()
+            document.getElementById("uberuns-facility").onmouseout = function() {
+                mouseOutBigEquipmentFacility()
             };
 
-            function mouseOverBigEquipment() {
-                document.getElementById("uberuns").style.color = "black";
+            function mouseOverBigEquipmentFacility() {
+                document.getElementById("uberuns-facility").style.color = "black";
             }
 
-            function mouseOutBigEquipment() {
-                document.getElementById("uberuns").style.color = "#c70a0c";
+            function mouseOutBigEquipmentFacility() {
+                document.getElementById("uberuns-facility").style.color = "#c70a0c";
             }
 
             //About animation big
-            document.getElementById("referenzen").onmouseover = function() {
-                mouseOverBigAbout()
+            document.getElementById("referenzen-facility").onmouseover = function() {
+                mouseOverBigAboutFacility()
             };
-            document.getElementById("referenzen").onmouseout = function() {
-                mouseOutBigAbout()
+            document.getElementById("referenzen-facility").onmouseout = function() {
+                mouseOutBigAboutFacility()
             };
 
-            function mouseOverBigAbout() {
-                document.getElementById("referenzen").style.color = "black";
+            function mouseOverBigAboutFacility() {
+                document.getElementById("referenzen-facility").style.color = "black";
             }
 
-            function mouseOutBigAbout() {
-                document.getElementById("referenzen").style.color = "#c70a0c";
+            function mouseOutBigAboutFacility() {
+                document.getElementById("referenzen-facility").style.color = "#c70a0c";
             }
 
             //Jobs
 
-            document.getElementById("jobs").onmouseover = function() {
-                mouseOverBigJobs()
+            document.getElementById("jobs-facility").onmouseover = function() {
+                mouseOverBigJobsFacility()
             };
-            document.getElementById("jobs").onmouseout = function() {
-                mouseOutBigJobs()
+            document.getElementById("jobs-facility").onmouseout = function() {
+                mouseOutBigJobsFacility()
             };
 
-            function mouseOverBigJobs() {
-                document.getElementById("jobs").style.color = "black";
+            function mouseOverBigJobsFacility() {
+                document.getElementById("jobs-facility").style.color = "black";
             }
 
-            function mouseOutBigJobs() {
-                document.getElementById("jobs").style.color = "#c70a0c";
+            function mouseOutBigJobsFacility() {
+                document.getElementById("jobs-facility").style.color = "#c70a0c";
             }
 
             //Contact Button animation big
-            document.getElementById("navbar-buttonID").onmouseover = function() {
-                mouseOverBigContactBtn()
+            document.getElementById("navbar-buttonID-facility").onmouseover = function() {
+                mouseOverBigContactBtnFacility()
             };
-            document.getElementById("navbar-buttonID").onmouseout = function() {
-                mouseOutBigContactBtn()
+            document.getElementById("navbar-buttonID-facility").onmouseout = function() {
+                mouseOutBigContactBtnFacility()
             };
 
-            function mouseOverBigContactBtn() {
-                document.getElementById("navbar-buttonID").style.color = "white";
-                document.getElementById("navbar-buttonID").style.background = "linear-gradient(to right, #c70a0c 50%, #800000 50%)";
-                document.getElementById("navbar-buttonID").style.backgroundSize = "200% 100%";
-                document.getElementById("navbar-buttonID").style.backgroundPosition = "right bottom";
+            function mouseOverBigContactBtnFacility() {
+                document.getElementById("navbar-buttonID-facility").style.color = "white";
+                document.getElementById("navbar-buttonID-facility").style.background = "linear-gradient(to right, #c70a0c 50%, #800000 50%)";
+                document.getElementById("navbar-buttonID-facility").style.backgroundSize = "200% 100%";
+                document.getElementById("navbar-buttonID-facility").style.backgroundPosition = "right bottom";
             }
 
-            function mouseOutBigContactBtn() {
-                document.getElementById("navbar-buttonID").style.color = "white";
-                document.getElementById("navbar-buttonID").style.background = "linear-gradient(to left, #c70a0c 50%, #800000 50%)";
-                document.getElementById("navbar-buttonID").style.backgroundSize = "200% 100%";
-                document.getElementById("navbar-buttonID").style.backgroundPosition = "left bottom";
+            function mouseOutBigContactBtnFacility() {
+                document.getElementById("navbar-buttonID-facility").style.color = "white";
+                document.getElementById("navbar-buttonID-facility").style.background = "linear-gradient(to left, #c70a0c 50%, #223d6b 50%)";
+                document.getElementById("navbar-buttonID-facility").style.backgroundSize = "200% 100%";
+                document.getElementById("navbar-buttonID-facility").style.backgroundPosition = "left bottom";
             }
         }
     }

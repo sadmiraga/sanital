@@ -16,11 +16,13 @@ li,
 .equipment,
 .about {
     font-family: "Montserrat" sans-serif;
-    color: #2f5596;
     font-size: 20px;
     text-decoration: none;
 }
 
+header a{
+    color: #223d6b;
+}
 #overlay {
     position: absolute;
     /* color with alpha transparency */
