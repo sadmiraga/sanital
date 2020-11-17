@@ -18,6 +18,12 @@
     color: #3490dc;
 }
 
+.mapContainer {
+    width: 850px;
+    margin-right: 0px;
+    outline: 1px solid black;
+}
+
 @media only screen and (max-width: 1100px) {
     .contactContainer {
         flex-direction: column;
@@ -32,5 +38,9 @@
     .smallText,
     .contactTitle {
         text-align: center;
+    }
+
+    .mapContainer {
+        width: 100%;
     }
 }

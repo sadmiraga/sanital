@@ -75,6 +75,7 @@ class referenceController extends Controller
     public function deleteReference($referenceID)
     {
         $reference = reference::find($referenceID);
+        $jobID = $reference->jobID;
 
         //delete image linked to refernce
         $path = public_path() . "/images/referenceImages/" . $reference->referenceImage;
@@ -82,7 +83,14 @@ class referenceController extends Controller
 
         $reference->delete();
 
-        return redirect('/admin');
+        switch ($jobID) {
+            case 1:
+                return redirect('/admin-facility');
+            case 2:
+                return redirect('/admin-brandschutz');
+            case 3:
+                return redirect('admin-belagsarbeiten');
+        }
     }
 
     public function editReferenceIndex($referenceID)
@@ -103,6 +111,10 @@ class referenceController extends Controller
         $reference->referenceName = $request->input('referenceName');
         $reference->jobID = $request->input('referenceCategory');
 
+        $jobID = $request->input('referenceCategory');
+
+
+
         //check if user wanted to change image
         if ($request->has('referenceImage')) {
 
@@ -119,6 +131,13 @@ class referenceController extends Controller
         }
 
         $reference->save();
-        return redirect('/admin');
+        switch ($jobID) {
+            case 1:
+                return redirect('/admin-facility');
+            case 2:
+                return redirect('/admin-brandschutz');
+            case 3:
+                return redirect('admin-belagsarbeiten');
+        }
     }
 }

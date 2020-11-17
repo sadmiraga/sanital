@@ -7,7 +7,7 @@
 
 
     <div class="innerJobContainerJustOne">
-        <h3 class="jobTitle"> Facility Managment reference </h3>
+        <h3 class="jobTitle"> Facility Managment  </h3>
         {!! Form::open(['url'=>'/editFacility', 'method'=> 'post' , 'enctype'=> 'multipart/form-data']) !!}
             @csrf
             <textarea class="jobDescription" name="description" cols="60" rows="20">{{$facility->description}}</textarea>
@@ -43,7 +43,7 @@
     @endif
 
 
-    {!! Form::open(['url'=>'/addReference', 'method'=> 'post' , 'enctype'=> 'multipart/form-data', 'class'=>'form-horizontal']) !!}
+    {!! Form::open(['url'=>'/addFacilityReference', 'method'=> 'post' , 'enctype'=> 'multipart/form-data', 'class'=>'form-horizontal']) !!}
             @csrf
     {!!Form::text('referenceName','',['class'=>'form-control','placeholder'=>'Referenzname eingeben','id'=>'referenceNameInput'])!!}
 

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,16 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+Route::get('/', 'HomeController@design');
 
 Auth::routes();
 
 
 Route::get('/home', 'HomeController@index')->name("home");
 
-Route::get('/index', 'HomeController@design');
+
 
 
 //reference routes
@@ -63,6 +63,7 @@ Route::get('/kontakt', 'HomeController@kontakt');
 //facility routs
 Route::get('/facility-references', 'facilityController@references');
 Route::get('/facility-job', 'facilityController@job');
+Route::post('/addFacilityReference', 'facilityController@addReference');
 
 //brandschutz routes
 Route::get('/brandschutz-references', 'brandschutzController@references');
