@@ -20,13 +20,11 @@ class accessAdmin
         if ($user = Auth::user()) {
             if (Auth::user()->role == 1) {
                 return $next($request);
+            } else {
+                return redirect('/');
             }
         } else {
-            return redirect('/login');
+            return redirect('/');
         }
-
-
-
-        return redirect('/');
     }
 }
