@@ -1,10 +1,11 @@
-@extends('layouts.mainLayout')
+@extends('layouts.facilityLayout')
 
 @section('content')
-<div class="uberuns-hero">
-    <img src="/images/uberuns-hero.png">
-    <div class="hero-text-box">
-        <h1>Über uns</h1>
+<div class="facility-hero">
+    <img src="/images/crveno.png" alt="img">
+    </div>
+    <div class="hero-text-box-facility">
+        <h1>Facility Managment</h1>
     </div>
 
     <div class="uberuns-content">

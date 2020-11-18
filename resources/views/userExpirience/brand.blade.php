@@ -1,26 +1,40 @@
-@extends('layouts.mainLayout')
+@extends('layouts.facilityLayout')
 
 @section('content')
-<div class="brand-hero">
-    <img src="/images/brand.jpg" style="width: 100%; height: 800px;">
-    <div class="hero-text-box">
-        <h1>Brandschutz/Wasserlöschanlagen</h1>
+<div class="facility-hero">
+    <img src="/images/crveno.png" alt="img">
     </div>
+    <div class="hero-text-box-facility">
+        <h1>Brandschutz/Wasserlöschanlagent</h1>
+    </div>
+    <div class="facility-content">
+        <div class="facility-h">
+            <h1>Die Firma Sanical AG</h1>
+            <h4>Wir haben schon viele Anlagen montiert und sind daher in Partnerschafts mit den verifizz ierten Firmen
+                erfahren, die Anlage von Tank bis Ausgang(Sprinkler) zu montieren</h4>
+        
+        </div>
 
-    <div class="brand-content">
-        <h3>Wir haben schon viele Anlagen montiert und sind daher in Partnerschafts mit den verifizz ierten Firmen
-            erfahren, die Anlage von Tank bis Ausgang(Sprinkler) zu montieren</h3>
-
-        <h4><br>
-            Sprinklermontage:
-        </h4>
-        <p>
-            Vom Plan zur wirklichen Sicherheit
-            Die Brandlöschung ist ein wichtiger Aspekt der nicht unterschätzt werden darf! So sind wir ein zuverlässiger
-            Partner mit einem Tema von Monteuren die es uns erlauben grosse Projekte zu
-            bewegen und Sie dabei zu unterstützen Ihren Plan für ein Gebäude in die tat umzusetzen.
-            Für ein Beratungsgespräch sind wir ganz offee n und können auch Referenzen nachweise
-        </p>
+<div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="facility-img">
+            <img src="/images/sprinkler.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="facility-textbx">
+            <h2 style="color: red!important">Sprinklermontage: </h2>
+            <p>
+                Vom Plan zur wirklichen Sicherheit
+                Die Brandlöschung ist ein wichtiger Aspekt der nicht unterschätzt werden darf! So sind wir ein zuverlässiger
+                Partner mit einem Tema von Monteuren die es uns erlauben grosse Projekte zu
+                bewegen und Sie dabei zu unterstützen Ihren Plan für ein Gebäude in die tat umzusetzen.
+                Für ein Beratungsgespräch sind wir ganz offee n und können auch Referenzen nachweise
+            </p>
+        </div>
+      </div>
     </div>
 </div>
+    </div>    
 @endsection

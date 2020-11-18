@@ -9,6 +9,7 @@ $fa-font-path: "~font-awesome/fonts";
 }
 
 body {
+    background-color: white;
     font-family: "Montserrat" sans-serif;
 }
 li,
@@ -20,7 +21,7 @@ li,
     text-decoration: none;
 }
 
-header a{
+.mainLayout-header a {
     color: #223d6b;
 }
 #overlay {
@@ -28,7 +29,7 @@ header a{
     /* color with alpha transparency */
     background-color: rgba(0, 0, 0, 0.3);
 }
-header {
+.mainLayout-header {
     background-color: rgba(255, 255, 255);
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -168,7 +169,7 @@ header {
 }
 
 .footer {
-    background: #2f5596;
+    background: #223d6b !important;
     display: block;
 }
 

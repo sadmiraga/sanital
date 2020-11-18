@@ -29,20 +29,18 @@
 <body>
 
     <!-- Navbar -->
-    <header id="navbarID">
+    <header class="header-facility" id="navbarID-facility">
         <img class="logo" id="logoID" src="/images/logoSanitalWhite.png" alt="logo">
         <nav>
-            <ul class="nav-links">
-                <li class="navbar-li"><a id="home" href="/index">Home</a></li>
-                <li class="navbar-li"><a id="uberuns" href="/uberuns">Über uns</a></li>
-                <li class="navbar-li"><a id="referenzen" href="#">Referenzen</a></li>
-                <li class="navbar-li"><a id="jobs" href="/jobs">Jobs</a></li>
-                <a href="#"><button id="navbar-buttonID">
-                        <p class="navbar-button-text">Kontakt</p>
-                    </button></a>
+            <ul class="nav-links-facility">
+                <li class="navbar-li-facility"><a id="home-facility" href="/index">Home</a></li>
+                <li class="navbar-li-facility"><a id="uberuns-facility" href="/facility-managment-uberuns">Über uns</a></li>
+                <li class="navbar-li-facility"><a id="referenzen-facility" href="#">Referenzen</a></li>
+                <li class="navbar-li-facility"><a id="jobs-facility" href="/jobs">Jobs</a></li>
+                <li class="navbar-li-facility"><a id="jobs-facility" href="/kontakt">Kontakt</a></li>
         </nav>
     </header>
-
+<!--
     <div class="mobile-nav">
         <div id="mySidepanel" class="sidepanel">
             <a href="#">Home</a>
@@ -60,10 +58,10 @@
             <button class="openbtn" onclick="openNav()">&#9776;</button>
         </div>
     </div>
-
+    !-->
 
     @yield('content')
-
+    
     <div class="footer">
         <div class="inner-footer">
             <!--  for company name and description -->

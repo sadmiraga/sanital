@@ -60,10 +60,14 @@ Route::post('/editBelagsarbeiten', 'jobsController@editBelagsarbeiten');
 Route::get('/references', 'referenceController@referencePublicIndex');
 Route::get('/kontakt', 'HomeController@kontakt');
 
-//facility routs
+//facility routes
 Route::get('/facility-references', 'facilityController@references');
 Route::get('/facility-job', 'facilityController@job');
 Route::post('/addFacilityReference', 'facilityController@addReference');
+Route::get('/facility-managment-uberuns', function(){
+    return view('userExpirience.facility.uberunsFacility');
+});
+
 
 //brandschutz routes
 Route::get('/brandschutz-references', 'brandschutzController@references');

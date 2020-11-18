@@ -1,26 +1,24 @@
-.hero-text-box {
-    transform: translateY(-400px);
-    background-color: white;
+.hero-text-box-facility {
+    transform: translateY(-24vh);
+    background-color: rgba(1, 1, 1, 0.603);
+    margin: auto;
     text-align: center;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.603);
 }
 
-.hero-text-box h1 {
+.hero-text-box-facility h1 {
     font-size: 4rem;
-    color: #223d6b;
+    color: white;
 }
 .facility-hero img {
     width: 100%;
     height: auto;
     top: -150px;
     position: relative;
+    z-index: -1;
 }
 
 .facility-content {
-    box-shadow: 0 0 25px 0 #223d6b;
     background-color: white;
     max-width: 1200px;
     margin-left: auto;
@@ -35,4 +33,20 @@
 
 .facility-content p {
     padding-left: 1%;
+}
+
+.facility-item {
+    display: flex;
+}
+
+.facility-img img {
+    width: 480px;
+}
+
+.facility-h {
+    text-align: center;
+}
+
+.row {
+    padding-top: 50px;
 }

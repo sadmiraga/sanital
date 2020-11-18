@@ -32,7 +32,7 @@
 <body>
 
     <!-- Navbar -->
-    <header id="navbarID">
+    <header class="mainLayout-header" id="navbarID">
         <img class="logo" id="logoID" src="/images/logoSanital.png" alt="logo" onclick="window.location.href='/index'">
         <nav>
             <ul class="nav-links">
@@ -65,7 +65,7 @@
 
 
     @yield('content')
-
+    
     <div class="footer">
         <div class="inner-footer">
             <!--  for company name and description -->
