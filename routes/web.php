@@ -26,9 +26,13 @@ Route::get('/home', 'HomeController@index')->name("home");
 
 
 //reference routes
-Route::get('/admin', 'referenceController@referenceIndex');
-Route::post('/addReference', 'referenceController@addReferenceExe');
-Route::get('/index', 'HomeController@design');
+Route::get('/admin', function () {
+    return redirect('/admin-facility');
+});
+
+
+Route::post('/addReference', 'referenceController@addReferenceExe')->middleware(['auth', 'auth.admin']);
+
 
 Route::get('/facility-managment', 'HomeController@facilityManagment');
 
@@ -42,19 +46,19 @@ Route::get('/jobs', 'HomeController@jobs');
 
 
 
-
-Route::get('/deleteReference/{referenceID}', 'referenceController@deleteReference');
-Route::get('/editReference/{referenceID}', 'referenceController@editReferenceIndex');
-Route::post('/editReferenceExe', 'referenceController@editReferenceExe');
-Route::get('/deleteReference/{referenceID}', 'referenceController@deleteReference');
-Route::get('/editReference/{referenceID}', 'referenceController@editReferenceIndex');
-Route::post('/editReferenceExe', 'referenceController@editReferenceExe');
+// ADMIN ROUTES
+Route::get('/deleteReference/{referenceID}', 'referenceController@deleteReference')->middleware(['auth', 'auth.admin']);
+Route::get('/editReference/{referenceID}', 'referenceController@editReferenceIndex')->middleware(['auth', 'auth.admin']);
+Route::post('/editReferenceExe', 'referenceController@editReferenceExe')->middleware(['auth', 'auth.admin']);
+Route::get('/deleteReference/{referenceID}', 'referenceController@deleteReference')->middleware(['auth', 'auth.admin']);
+Route::get('/editReference/{referenceID}', 'referenceController@editReferenceIndex')->middleware(['auth', 'auth.admin']);
+Route::post('/editReferenceExe', 'referenceController@editReferenceExe')->middleware(['auth', 'auth.admin']);
 
 //jobs routes
-Route::get('/adminJobs', 'jobsController@jobsIndex');
-Route::post('/editFacility', 'jobsController@editFacility');
-Route::post('/editBrandschutz', 'jobsController@editBrandschutz');
-Route::post('/editBelagsarbeiten', 'jobsController@editBelagsarbeiten');
+Route::get('/adminJobs', 'jobsController@jobsIndex')->middleware(['auth', 'auth.admin']);
+Route::post('/editFacility', 'jobsController@editFacility')->middleware(['auth', 'auth.admin']);
+Route::post('/editBrandschutz', 'jobsController@editBrandschutz')->middleware(['auth', 'auth.admin']);
+Route::post('/editBelagsarbeiten', 'jobsController@editBelagsarbeiten')->middleware(['auth', 'auth.admin']);
 
 //public routes
 Route::get('/references', 'referenceController@referencePublicIndex');
@@ -79,6 +83,6 @@ Route::get('/belagsarbeiten-job', 'belagsarbeitenController@job');
 
 
 //admin routes
-Route::get('/admin-facility', 'facilityController@adminIndex');
-Route::get('/admin-brandschutz', 'brandschutzController@adminIndex');
-Route::get('/admin-belagsarbeiten', 'belagsarbeitenController@adminIndex');
+Route::get('/admin-facility', 'facilityController@adminIndex')->middleware(['auth', 'auth.admin']);
+Route::get('/admin-brandschutz', 'brandschutzController@adminIndex')->middleware(['auth', 'auth.admin']);
+Route::get('/admin-belagsarbeiten', 'belagsarbeitenController@adminIndex')->middleware(['auth', 'auth.admin']);
