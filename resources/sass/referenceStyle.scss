@@ -1,25 +1,3 @@
-.content-categories-main {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1200px;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-.categtories-h1 {
-    font-size: 2rem;
-    color: #0088a9;
-    text-align: center;
-}
-.row {
-    padding-top: 10px;
-}
-#categories-col {
-    padding-top: 30px;
-    padding-right: 0;
-    max-width: 500px;
-    margin-bottom: 0px;
-}
-
 .text-block {
     position: relative;
     width: 100%;
@@ -89,4 +67,17 @@
 .errorMessage {
     list-style-type: none;
     color: white;
+}
+
+img_overlay {
+    background: black;
+    overflow: hidden;
+    background: #c33764; /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(
+            rgba(29, 38, 113, 0.8),
+            rgba(195, 55, 100, 0.8)
+        ),
+        url("https://bit.ly/2rlzaXi");
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
+        url("https://bit.ly/2rlzaXi"); /* The least supported option. */
 }
