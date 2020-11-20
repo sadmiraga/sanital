@@ -3,6 +3,9 @@
 
 <head>
 
+
+    <link rel="icon" href="/images/logoSanital.png" type="image/gif" sizes="32x32">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -65,7 +68,7 @@
 
 
     @yield('content')
-    
+
     <div class="footer">
         <div class="inner-footer">
             <!--  for company name and description -->
