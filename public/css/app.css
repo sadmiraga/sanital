@@ -17904,11 +17904,13 @@ li,
 }
 
 .hero-text-box-facility {
-  transform: translateY(-24vh);
+  width: 100%;
+  transform: translateY(-26vh);
   background-color: rgba(1, 1, 1, 0.603);
   margin: auto;
   text-align: center;
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.603);
+  position: absolute;
 }
 
 .hero-text-box-facility h1 {
@@ -17924,12 +17926,16 @@ li,
   z-index: -1;
 }
 
+.container {
+  padding-top: 5%;
+}
+
 .facility-content {
   background-color: white;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  transform: translateY(-200px);
+  transform: translateY(-10vh);
   padding: 5%;
 }
 

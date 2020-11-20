@@ -3,10 +3,11 @@
 @section('content')
 <div class="facility-hero">
     <img src="/images/blueReference.png" alt="img">
-    </div>
     <div class="hero-text-box-facility">
         <h1>Referenzen</h1>
     </div>
+</div>
+    
 <div class="content-categories-outter-wrap">
     <div class="content-categories-main" data-aos="fade-in" data-aos-duration="3000">
         <div class="categtories-content">
@@ -23,7 +24,7 @@
                                 <div class="categories-text">
                                     <p>Die Schweizerische Post - InfraPost AG</p>
                                 </div>
-                            <img class="categories-img" style="object-fit: cover;" height="200" width="500"
+                            <img class="categories-img" style="object-fit: cover;" height="200" width="100%"
                                 src="/images/referenceImages/{{$reference->referenceImage}}">
                         </div>
                     </div>

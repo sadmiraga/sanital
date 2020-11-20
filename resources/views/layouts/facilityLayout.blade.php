@@ -36,7 +36,7 @@
                 <li class="navbar-li-facility"><a id="home-facility" href="/facility-managment">Facility managment</a></li>
                 <li class="navbar-li-facility"><a id="uberuns-facility" href="/facility-managment-uberuns">Über uns</a></li>
                 <li class="navbar-li-facility"><a id="referenzen-facility" href="facility-references">Referenzen</a></li>
-                <li class="navbar-li-facility"><a id="jobs-facility" href="/jobs">Jobs</a></li>
+                <li class="navbar-li-facility"><a id="jobs-facility" href="/facility-job">Jobs</a></li>
                 <li class="navbar-li-facility"><a id="jobs-facility" href="/kontakt">Kontakt</a></li>
         </nav>
     </header>

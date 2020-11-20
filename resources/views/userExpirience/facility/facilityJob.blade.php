@@ -1,10 +1,11 @@
-@extends('layouts.mainLayout')
+@extends('layouts.facilityLayout')
 
 @section('content')
-<div class="jobs-hero">
-    <img width="100%" src="/images/jobs.png">
-    <div class="hero-text-box">
-        <h1>Job</h1>
+<div class="facility-hero">
+    <img src="/images/blueOurTeam.png" alt="img">
+    </div>
+    <div class="hero-text-box-facility">
+        <h1>Jobs</h1>
     </div>
 
     <div class="jobsContainer">
