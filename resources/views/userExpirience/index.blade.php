@@ -35,7 +35,6 @@
     <a href="#"></a>
   </figure>
 </div>
-<div class="pusher" style="margin-bottom: 100px;"></div>
   <script>
 
         /* Demo purposes only */
