@@ -64,6 +64,9 @@ Route::post('/editBelagsarbeiten', 'jobsController@editBelagsarbeiten')->middlew
 Route::get('/references', 'referenceController@referencePublicIndex');
 Route::get('/kontakt', 'HomeController@kontakt');
 
+
+
+
 //facility routes
 Route::get('/facility-references', 'facilityController@references');
 Route::get('/facility-job', 'facilityController@job');
@@ -74,13 +77,20 @@ Route::get('/facility-managment-uberuns', function () {
 Route::get('/liegenschaftsbetreuung', 'facilityController@liegenschaftsbetreuung');
 
 
+
 //brandschutz routes
 Route::get('/brandschutz-references', 'brandschutzController@references');
 Route::get('/brandschutz-job', 'brandschutzController@job');
+Route::get('/brandschutz-uberuns', function(){
+    return view('userExpirience.brandschutz.brandshutzUberuns');
+});
 
 //belagsarbeiten routes
 Route::get('/belagsarbeiten-references', 'belagsarbeitenController@references');
 Route::get('/belagsarbeiten-job', 'belagsarbeitenController@job');
+Route::get('/belagsarbeiten-uberuns',function(){
+    return view('userExpirience.belagsarbeiten.belagsarbeiten-uberuns');
+});
 
 
 //admin routes

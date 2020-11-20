@@ -3,6 +3,8 @@
 
 <head>
 
+    <link rel="icon" href="/images/logoSanital.png" type="image/gif" sizes="32x32">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -12,7 +14,6 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
 
 
     <!-- Fonts -->
@@ -24,28 +25,24 @@
     <!-- StAyles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <!-- Scripts -->
-    <script type="text/javascript" src="{{URL::to('js/mainLayoutJS.js') }}"></script>
 
 </head>
 
 <body>
 
     <!-- Navbar -->
-    <header id="navbarID">
-        <img onclick="location.href='/'" class="logo" id="logoID" src="/images/logoSanital.png" alt="logo">
+    <header class="header-facility" id="navbarID-facility">
+        <img onclick="location.href='/'" class="logo" id="logoID" src="/images/logoSanitalWhite.png" alt="logo">
         <nav>
-            <ul class="nav-links">
-                <li class="navbar-li"><a id="home" href="/index">Home</a></li>
-                <li class="navbar-li"><a id="uberuns" href="/uberuns">Über uns</a></li>
-                <li class="navbar-li"><a id="referenzen" href="/belagsarbeiten-references">Referenzen</a></li>
-                <li class="navbar-li"><a id="jobs" href="/belagsarbeiten-job">Jobs</a></li>
-                <a href="#"><button id="navbar-buttonID">
-                        <p class="navbar-button-text">Kontakt</p>
-                    </button></a>
+            <ul class="nav-links-facility">
+                <li class="navbar-li-facility"><a id="home-facility" href="/facility-managment">Facility managment</a></li>
+                <li class="navbar-li-facility"><a id="uberuns-facility" href="/facility-managment-uberuns">Über uns</a></li>
+                <li class="navbar-li-facility"><a id="referenzen-facility" href="/facility-references">Referenzen</a></li>
+                <li class="navbar-li-facility"><a id="jobs-facility" href="/facility-job">Jobs</a></li>
+                <li class="navbar-li-facility"><a id="jobs-facility" href="/kontakt">Kontakt</a></li>
         </nav>
     </header>
-
+<!--
     <div class="mobile-nav">
         <div id="mySidepanel" class="sidepanel">
             <a href="#">Home</a>
@@ -63,7 +60,7 @@
             <button class="openbtn" onclick="openNav()">&#9776;</button>
         </div>
     </div>
-
+    !-->
 
     @yield('content')
 

@@ -37,8 +37,8 @@
         <img onclick="location.href='/'" class="logo" id="logoID" src="/images/logoSanitalWhite.png" alt="logo">
         <nav>
             <ul class="nav-links-facility">
-                <li class="navbar-li-facility"><a id="home-facility" href="/facility-managment">Facility managment</a></li>
-                <li class="navbar-li-facility"><a id="uberuns-facility" href="/facility-managment-uberuns">Über uns</a></li>
+                <li class="navbar-li-facility"><a id="home-facility" href="/brandschutz-wasserloschanlagen">Brandschutz/Wasserlöschanlagen</a></li>
+                <li class="navbar-li-facility"><a id="uberuns-facility" href="/brandschutz-uberuns">Über uns</a></li>
                 <li class="navbar-li-facility"><a id="referenzen-facility" href="/brandschutz-references">Referenzen</a></li>
                 <li class="navbar-li-facility"><a id="jobs-facility" href="/brandschutz-job">Jobs</a></li>
                 <li class="navbar-li-facility"><a id="jobs-facility" href="/kontakt">Kontakt</a></li>

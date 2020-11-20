@@ -5,15 +5,8 @@
     <img src="/images/crveno.png" alt="img">
     </div>
     <div class="hero-text-box-facility">
-        <h1>Brandschutz/Wasserlöschanlagent</h1>
+        <h1>Job</h1>
     </div>
-    <div class="facility-content">
-        <div class="facility-h">
-            <h1>Die Firma Sanical AG</h1>
-            <h4>Wir haben schon viele Anlagen montiert und sind daher in Partnerschafts mit den verifizz ierten Firmen
-                erfahren, die Anlage von Tank bis Ausgang(Sprinkler) zu montieren</h4>
-
-        </div>
 
     <div class="jobsContainer">
 
