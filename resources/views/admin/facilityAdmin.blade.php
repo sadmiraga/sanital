@@ -2,21 +2,18 @@
 
 @section('content')
 
-
 <div class="jobsContainer">
-
-
     <div class="innerJobContainerJustOne">
-        <h3 class="jobTitle"> Facility Managment  </h3>
-        {!! Form::open(['url'=>'/editFacility', 'method'=> 'post' , 'enctype'=> 'multipart/form-data']) !!}
-            @csrf
-            <textarea class="jobDescription" name="description" cols="60" rows="20">{{$facility->description}}</textarea>
-            {!! Form::submit('sparen',['class'=>'btn btn-success', 'id'=>'submitButton','style'=>'width:100%;margin-left:0;margin-right:0;margin-top:0;background-color: #0a4c66b7;']) !!}
+        <h6 style="text-align:center;">Facility management</h6>
+            {!! Form::open(['url'=>'/editFacility', 'method'=> 'post' , 'enctype'=> 'multipart/form-data']) !!}
+            <textarea name="description" class="form-control" id="exampleFormControlTextarea3" rows="7">{{$facility->description}}</textarea>
+            <br>
+        {!! Form::submit('sparen',['class'=>'btn btn-success', 'id'=>'submitButton']) !!}
         {!! Form::close() !!}
     </div>
-
-
 </div>
+
+
 
 
 

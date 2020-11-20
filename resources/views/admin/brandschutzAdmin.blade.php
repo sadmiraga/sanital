@@ -3,17 +3,16 @@
 @section('content')
 
 
-<div class="jobsContainer">
 
+<div class="jobsContainer">
     <div class="innerJobContainerJustOne">
-        <h3 class="jobTitle"> Brandschutz/Wasserlöschanlagen </h3>
+        <h5 style="text-align:center;">Brandschutz/Wasserlöschanlagen</h5>
         {!! Form::open(['url'=>'/editBrandschutz', 'method'=> 'post' , 'enctype'=> 'multipart/form-data']) !!}
-            @csrf
-            <textarea class="jobDescription" name="description" cols="60" rows="20">{{$brandschutz->description}}</textarea>
-            {!! Form::submit('sparen',['class'=>'btn btn-success', 'id'=>'submitButton','style'=>'width:100%;margin-left:0;margin-right:0;margin-top:0;background-color: #0a4c66b7;']) !!}
+            <textarea name="description" class="form-control" id="exampleFormControlTextarea3" rows="7">{{$brandschutz->description}}</textarea>
+            <br>
+        {!! Form::submit('sparen',['class'=>'btn btn-success', 'id'=>'submitButton']) !!}
         {!! Form::close() !!}
     </div>
-
 </div>
 
 
