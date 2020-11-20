@@ -1,9 +1,10 @@
-@extends('layouts.mainLayout')
+@extends('layouts.belagsarbeitenLayouts')
 
 @section('content')
-<div class="jobs-hero">
-    <img width="100%" src="/images/jobs.png">
-    <div class="hero-text-box">
+<div class="facility-hero">
+    <img src="/images/brownJobs.png" alt="img">
+    </div>
+    <div class="hero-text-box-facility">
         <h1>Job</h1>
     </div>
 
@@ -11,10 +12,10 @@
 
 
         <div id="publicJobText" class="innerJobContainer">
-            <h3 class="jobTitle"> Belagsarbeiten und Bodenbeläge </h3>
+            <h3 class="jobTitle"> Belagsarbeiten und Bodenbelage </h3>
             <div class="publicJobDescription">
                 <?php
-                    echo nl2br($belagsarbeiten->description);
+                    echo nl2br($brandschutz->description);
                 ?>
             </div>
         </div>
@@ -22,5 +23,6 @@
 
 
     </div>
+</div>
 </div>
 @endsection

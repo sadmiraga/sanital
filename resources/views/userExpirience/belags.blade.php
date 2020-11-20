@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="facility-hero">
-    <img src="/images/blueFacility.png" alt="img">
+    <img src="/images/brownBelagsarbeiten.png" alt="img">
     </div>
     <div class="hero-text-box-facility">
         <h1>Facility Managment</h1>
@@ -19,7 +19,7 @@
             <div class="row">
               <div class="col-sm">
                 <div class="facility-img">
-                    <img src="/images/baureinigung.jpg" alt="">
+                    <img src="/images/plattenleger.jpg" alt="">
                 </div>
               </div>
               <div class="col-sm">
@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-sm">
                     <div class="facility-img">
-                        <img src="/images/special.jpg" alt="Spezialreinigung">
+                        <img src="/images/parket.jpg" alt="Spezialreinigung">
                     </div>
               </div>
           </div>
@@ -55,7 +55,7 @@
           <div class="row">
             <div class="col-sm">
                 <div class="facility-img">
-                    <img src="/images/fassade.jpg" alt="Fassadenreinigung">
+                    <img src="/images/linoleum.jpg" alt="Fassadenreinigung">
                 </div>
             </div>
             <div class="col-sm">

@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="facility-hero">
-    <img src="/images/crveno.png" alt="img">
+    <img src="/images/redJobs.png" alt="img">
     </div>
     <div class="hero-text-box-facility">
         <h1>Job</h1>

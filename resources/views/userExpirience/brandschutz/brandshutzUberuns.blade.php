@@ -1,7 +1,7 @@
 @extends('layouts.brandschutzLayout')
 @section('content')
 <div class="facility-hero">
-    <img src="/images/redRefernce.png" alt="img">
+    <img src="/images/redOurTeam.png" alt="img">
     </div>
     <div class="hero-text-box-facility">
         <h1>Uber Uns</h1>
