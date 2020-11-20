@@ -18075,6 +18075,7 @@ img_overlay {
 
 .img_overlay:before {
   content: "";
+  text-align: center;
   display: block;
   width: 100%;
   height: 100%;
@@ -18083,7 +18084,8 @@ img_overlay {
   position: absolute;
   background: black;
   background: transparent\9;
-  background: rgba(10, 17, 149, 0.4);
+  background: #223d6b;
+  opacity: 0.6;
   z-index: 2;
   transition: all 300ms;
 }
@@ -18091,6 +18093,20 @@ img_overlay {
 .img_overlay:hover:before {
   cursor: pointer;
   opacity: 0;
+}
+
+.img_overlay:hover .categories-text {
+  display: none;
+}
+
+.categories-text {
+  position: absolute;
+  color: white;
+  font-size: 1rem;
+  z-index: 3;
+  top: 28%;
+  padding: 3%;
+  font-weight: bold;
 }
 
 .uberuns-hero .hero-text-box {

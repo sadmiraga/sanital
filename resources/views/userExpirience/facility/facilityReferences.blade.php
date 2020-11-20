@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="facility-hero">
-    <img src="/images/slideshow/slideImage2.png" alt="img">
+    <img src="/images/blueReference.png" alt="img">
     </div>
     <div class="hero-text-box-facility">
         <h1>Referenzen</h1>
@@ -20,6 +20,9 @@
                     <div  data-aos="fade-right"
                         style="overflow: hidden;" class='col-md-3' id="categories-col" style="padding-right: 0%;">
                             <div  class="img_overlay" >
+                                <div class="categories-text">
+                                    <p>Die Schweizerische Post - InfraPost AG</p>
+                                </div>
                             <img class="categories-img" style="object-fit: cover;" height="200" width="500"
                                 src="/images/referenceImages/{{$reference->referenceImage}}">
                         </div>
