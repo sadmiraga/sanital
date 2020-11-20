@@ -33,7 +33,7 @@
 
     <!-- Navbar -->
     <header id="navbarID">
-        <img href="/" class="logo" id="logoID" src="/images/logoSanital.png" alt="logo">
+        <img onclick="location.href='/'" class="logo" id="logoID" src="/images/logoSanital.png" alt="logo">
         <nav>
             <ul class="nav-links">
                 <li class="navbar-li"><a id="home" href="/index">Home</a></li>
