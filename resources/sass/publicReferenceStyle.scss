@@ -3,6 +3,27 @@
     overflow: hidden;
 }
 
+.content-categories-main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    margin-top: -200px;
+    padding-bottom: 5%;
+}
+.categtories-h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+.row {
+    padding-top: 10px;
+}
+#categories-col {
+    padding-top: 30px;
+    padding-right: 0;
+    max-width: 500px;
+    margin-bottom: 0px;
+}
+
 .img_overlay:before {
     content: "";
     display: block;
@@ -15,8 +36,10 @@
     background: transparent\9;
     background: rgba(10, 17, 149, 0.4);
     z-index: 2;
+    transition: all 300ms;
 }
 
-.img_overlay:hover {
-    background: rgba(10, 17, 149, 0);
+.img_overlay:hover:before {
+    cursor: pointer;
+    opacity: 0;
 }
