@@ -1,11 +1,19 @@
-@extends('layouts.mainLayout')
+@extends('layouts.brandschutzLayout')
 
 @section('content')
-<div class="jobs-hero">
-    <img width="100%" src="/images/jobs.png">
-    <div class="hero-text-box">
-        <h1>Job</h1>
+<div class="facility-hero">
+    <img src="/images/crveno.png" alt="img">
     </div>
+    <div class="hero-text-box-facility">
+        <h1>Brandschutz/Wasserlöschanlagent</h1>
+    </div>
+    <div class="facility-content">
+        <div class="facility-h">
+            <h1>Die Firma Sanical AG</h1>
+            <h4>Wir haben schon viele Anlagen montiert und sind daher in Partnerschafts mit den verifizz ierten Firmen
+                erfahren, die Anlage von Tank bis Ausgang(Sprinkler) zu montieren</h4>
+
+        </div>
 
     <div class="jobsContainer">
 
@@ -22,5 +30,6 @@
 
 
     </div>
+</div>
 </div>
 @endsection

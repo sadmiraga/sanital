@@ -1,4 +1,4 @@
-@extends('layouts.facilityLayout')
+@extends('layouts.brandschutzLayout')
 
 @section('content')
 <div class="facility-hero">
@@ -12,7 +12,7 @@
             <h1>Die Firma Sanical AG</h1>
             <h4>Wir haben schon viele Anlagen montiert und sind daher in Partnerschafts mit den verifizz ierten Firmen
                 erfahren, die Anlage von Tank bis Ausgang(Sprinkler) zu montieren</h4>
-        
+
         </div>
 
 <div class="container">
@@ -36,5 +36,5 @@
       </div>
     </div>
 </div>
-    </div>    
+    </div>
 @endsection

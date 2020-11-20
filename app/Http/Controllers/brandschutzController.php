@@ -10,7 +10,7 @@ class brandschutzController extends Controller
 {
     public function references()
     {
-        $references = reference::where('jobID', 2)->pagiante(20);
+        $references = reference::where('jobID', 2)->paginate(20);
         return view('userExpirience.brandschutz.brandschutzReferences')->with('references', $references);
     }
 
