@@ -68,7 +68,18 @@ class referenceController extends Controller
         $reference->referenceName = $request->input('referenceName');
         $reference->jobID = $request->input('referenceCategory');
         $reference->save();
-        return redirect('/admin');
+
+
+        $jobID = $request->input('referenceCategory');
+
+        switch ($jobID) {
+            case 1:
+                return redirect('/admin-facility');
+            case 2:
+                return redirect('/admin-brandschutz');
+            case 3:
+                return redirect('/admin-belagsarbeiten');
+        }
     }
 
 

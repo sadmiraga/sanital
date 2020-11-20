@@ -70,4 +70,9 @@ class facilityController extends Controller
         $reference->save();
         return redirect('/admin-facility');
     }
+
+    public function liegenschaftsbetreuung()
+    {
+        return view('userExpirience.facility.liegenschaftsbetreuung');
+    }
 }

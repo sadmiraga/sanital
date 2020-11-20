@@ -14,9 +14,9 @@
             praxisorientiert an. Putzen kann jeder, aber Reinigung ist etwas ganz
             anderes. Die Branche Facility Management beinhaltet viele Untergruppierungen die wir Ihnen gerne einzeln erklären und
             gerne anbieten:</h4>
-        
+
         </div>
-        
+
         <div class="container">
             <div class="row">
               <div class="col-sm">
@@ -97,7 +97,7 @@
             </div>
       </div>
   </div>
-     
+
   <div class="row">
     <div class="col-sm">
         <div class="facility-img">
@@ -111,11 +111,12 @@
             nicht nur die Hygiene die hier eine grosse Rolle spielt, sondern auch die
             Sicherheit der Flucht-Wege ist hier auch gefragt. Ein Ansprechpartner wird diese Aufgabe übernehmen und dies
             für Sie nach den Vorgaben erfüllen.
+            <br> <a href="/liegenschaftsbetreuung">Mehr sehen</a>
         </p>
   </div>
 </div>
 
-       
+
     </div>
 </div>
 @endsection

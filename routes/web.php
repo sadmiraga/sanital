@@ -68,9 +68,10 @@ Route::get('/kontakt', 'HomeController@kontakt');
 Route::get('/facility-references', 'facilityController@references');
 Route::get('/facility-job', 'facilityController@job');
 Route::post('/addFacilityReference', 'facilityController@addReference');
-Route::get('/facility-managment-uberuns', function(){
+Route::get('/facility-managment-uberuns', function () {
     return view('userExpirience.facility.uberunsFacility');
 });
+Route::get('/liegenschaftsbetreuung', 'facilityController@liegenschaftsbetreuung');
 
 
 //brandschutz routes
