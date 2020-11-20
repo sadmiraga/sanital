@@ -33,13 +33,13 @@
 
     <!-- Navbar -->
     <header id="navbarID">
-        <img class="logo" id="logoID" src="/images/logoSanital.png" alt="logo">
+        <img href="/" class="logo" id="logoID" src="/images/logoSanital.png" alt="logo">
         <nav>
             <ul class="nav-links">
                 <li class="navbar-li"><a id="home" href="/index">Home</a></li>
                 <li class="navbar-li"><a id="uberuns" href="/uberuns">Über uns</a></li>
-                <li class="navbar-li"><a id="referenzen" href="#">Referenzen</a></li>
-                <li class="navbar-li"><a id="jobs" href="/jobs">Jobs</a></li>
+                <li class="navbar-li"><a id="referenzen" href="/belagsarbeiten-references">Referenzen</a></li>
+                <li class="navbar-li"><a id="jobs" href="/belagsarbeiten-job">Jobs</a></li>
                 <a href="#"><button id="navbar-buttonID">
                         <p class="navbar-button-text">Kontakt</p>
                     </button></a>

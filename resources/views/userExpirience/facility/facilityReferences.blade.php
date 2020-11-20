@@ -21,7 +21,7 @@
                         style="overflow: hidden;" class='col-md-3' id="categories-col" style="padding-right: 0%;">
                             <div  class="img_overlay" >
                                 <div class="categories-text">
-                                    <p>Die Schweizerische Post - InfraPost AG</p>
+                                    <p>{{$reference->referenceName}}</p>
                                 </div>
                             <img class="categories-img" style="object-fit: cover;" height="200" width="500"
                                 src="/images/referenceImages/{{$reference->referenceImage}}">

@@ -30,13 +30,13 @@
 
     <!-- Navbar -->
     <header class="header-facility" id="navbarID-facility">
-        <img class="logo" id="logoID" src="/images/logoSanitalWhite.png" alt="logo">
+        <img onclick="location.href='/'" class="logo" id="logoID" src="/images/logoSanitalWhite.png" alt="logo">
         <nav>
             <ul class="nav-links-facility">
                 <li class="navbar-li-facility"><a id="home-facility" href="/facility-managment">Facility managment</a></li>
                 <li class="navbar-li-facility"><a id="uberuns-facility" href="/facility-managment-uberuns">Über uns</a></li>
-                <li class="navbar-li-facility"><a id="referenzen-facility" href="facility-references">Referenzen</a></li>
-                <li class="navbar-li-facility"><a id="jobs-facility" href="/jobs">Jobs</a></li>
+                <li class="navbar-li-facility"><a id="referenzen-facility" href="/facility-references">Referenzen</a></li>
+                <li class="navbar-li-facility"><a id="jobs-facility" href="/facility-job">Jobs</a></li>
                 <li class="navbar-li-facility"><a id="jobs-facility" href="/kontakt">Kontakt</a></li>
         </nav>
     </header>
@@ -61,7 +61,7 @@
     !-->
 
     @yield('content')
-    
+
     <div class="footer">
         <div class="inner-footer">
             <!--  for company name and description -->

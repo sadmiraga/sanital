@@ -38,8 +38,8 @@
             <ul class="nav-links">
                 <li class="navbar-li"><a id="home" href="/index">Home</a></li>
                 <li class="navbar-li"><a id="uberuns" href="/uberuns">Über uns</a></li>
-                <li class="navbar-li"><a id="referenzen" href="#">Referenzen</a></li>
-                <li class="navbar-li"><a id="jobs" href="/jobs">Jobs</a></li>
+                <li class="navbar-li"><a id="referenzen" href="/brandschutz-references">Referenzen</a></li>
+                <li class="navbar-li"><a id="jobs" href="/brandschutz-job">Jobs</a></li>
                 <a href="#"><button id="navbar-buttonID">
                         <p class="navbar-button-text">Kontakt</p>
                     </button></a>
