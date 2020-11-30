@@ -12,7 +12,8 @@
     <div class="content-categories-main" data-aos="fade-in" data-aos-duration="3000">
         <div class="categtories-content">
             <div>
-                <p class="categtories-h1">Facility managment</p>
+                <p class="categtories-h1">
+                    Brandschutz/Wasserlöschanlagent</p>
             </div>
             <div class='container-fluid'>
                 <div class='row'>
@@ -20,7 +21,7 @@
 
                     <div  data-aos="fade-right"
                         style="overflow: hidden;" class='col-md-3' id="categories-col" style="padding-right: 0%;">
-                            <div  class="img_overlay" >
+                            <div  class="img_overlay_brand" >
                                 <div class="categories-text">
                                     <p>{{$reference->referenceName}}</p>
                                 </div>

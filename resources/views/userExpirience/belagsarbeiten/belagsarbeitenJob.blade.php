@@ -15,7 +15,7 @@
             <h3 class="jobTitle"> Belagsarbeiten und Bodenbelage </h3>
             <div class="publicJobDescription">
                 <?php
-                    echo nl2br($brandschutz->description);
+                    echo nl2br($belagsarbeiten->description);
                 ?>
             </div>
         </div>

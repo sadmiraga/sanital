@@ -14,7 +14,7 @@
                 Untergruppierungen die wir Ihnen gerne einzeln erklären und gerne anbieten:</h4>
     </div>
         <div class="uberuns-cards">
-            <figure class="snip1544">
+            <figure class="snip1545">
                 <img src="/images/fassade.jpg" alt="sample108" />
                 <figcaption>
                   <h3>Facility Managment</h3>
@@ -23,7 +23,7 @@
                 <a href="#"></a>
               </figure>
             
-              <figure class="snip1544">
+              <figure class="snip1545">
                 <img src="/images/fire-protection.jpg" alt="sample108" />
                 <figcaption>
                   <h3>Brandschutz/<br>
@@ -33,7 +33,7 @@
                 <a href="#"></a>
               </figure>
             
-              <figure class="snip1544">
+              <figure class="snip1545">
                 <img src="/images/parket.jpg" alt="sample108" />
                 <figcaption>
                   <h3>Belagsarbeiten<br>
@@ -51,7 +51,7 @@
                   }
                 );
                 </script>
-    <div class="facility-uberuns-content">
+    <div class="facility-uberuns-content" style="padding-top: 5%;">
         <h4>Die Beziehungen mit den Generalunternehmern erlauben es uns, an grossen Projekten teilzuhaben und diese zum Glanz hervorzubringen.
              Langer Aufbaa u bracht uns zu diesem Stand und erlaubt es alle Werke direkt mit den Generalunternehmern auszuführen zu können.
               Die Zielsetzung der Sanical AG ist es ein Paket anzubieten, über ein Netzwerk von Leuten, die engagiert sind sich 

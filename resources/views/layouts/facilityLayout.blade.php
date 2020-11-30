@@ -69,26 +69,23 @@
             <!--  for company name and description -->
             <div class="footer-items">
                 <a class="footer-text-logo-link" href="#">
-                    <h1 class="footer-text-logo-h1">Sanical GmbH</h1>
+                    <h1 class="footer-text-logo-h1">Sanical AG</h1>
                 </a>
             </div>
 
             <!--  for quick links  -->
             <div class="footer-items">
                 <ul class="footer-ul">
-                    <a class="footer-link" href="index.html">
-                        <li class="footer-li">Home</li>
+                    <a class="footer-link" href="/facility-managment">
+                        <li class="footer-li">Facility managment</li>
                     </a>
-                    <a class="footer-link" href="about.html">
-                        <li class="footer-li">Über uns</li>
+                    <a class="footer-link" href="/brandschutz-wasserloschanlagen">
+                        <li class="footer-li">Brandschutz/Wasserlöschanlagen</li>
                     </a>
-                    <a class="footer-link" href="jobs.html">
-                        <li class="footer-li">Referenzen</li>
+                    <a class="footer-link" href="/belagsarbeiten-und-bodenbelage">
+                        <li class="footer-li">Belagsarbeiten und Bodenbeläge</li>
                     </a>
-                    <a class="footer-link" href="kontakt.html">
-                        <li class="footer-li">Jobs</li>
-                    </a>
-                    <a class="footer-link" href="kontakt.html">
+                    <a class="footer-link" href="/kontakt">
                         <li class="footer-li">Kontakt</li>
                     </a>
                 </ul>
@@ -103,22 +100,22 @@
             <div class="footer-items">
                 <ul class="footer-ul">
                     <li class="footer-li">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>Almerstrasse 12
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>Europa-Strasse 17
                     </li>
                     <li class="footer-li">
-                        <i class="fa fa-phone" aria-hidden="true"></i>0677 640 641 13
+                        <i class="fa fa-phone" aria-hidden="true"></i>044/ 202 20 10
                     </li>
                     <li class="footer-li">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>info@atec-ab.at
+                        <i class="fa fa-envelope" aria-hidden="true"></i>info@sanical-ag.ch
                     </li>
                 </ul>
 
                 <!--   for social links -->
                 <div class="social-media">
-                    <a href="https://www.facebook.com/ATEC-Arbeitsb%C3%BChnen-GmbH-105835384570594"><i
+                    <a href="#"><i
                             class="fa fa-facebook"></i></a>
                     <a
-                        href="https://ch.linkedin.com/public-profile/in/nedim-nedzibi-05522b174?challengeId=AQHVsMNgTzP4bwAAAXQH9F3IDQGiQKcgfIAdv2CsBfXTMuBxdBfwYVOTveozdirt-4S-36j5T7_syIE-xfm4S7ublEE4pScdDQ&submissionId=6cc4d56e-60be-2c16-749d-6702cef2be31"><i
+                        href=""><i
                             class="fa fa-linkedin"></i></a>
                     <a href="kontakt.html"><i class="fa fa-envelope"></i></a>
                 </div>
@@ -126,7 +123,7 @@
         </div>
 
         <!--   Footer Bottom start  -->
-        <div class="footer-bottom">Copyright &copy; Screnshoot 2020</div>
+        <div class="footer-bottom" style="text-align: center !important">Copyright &copy; Screnshoot 2020</div>
         <script>
         AOS.init({
             duration: 1200,

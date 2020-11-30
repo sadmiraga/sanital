@@ -1,4 +1,4 @@
-@extends('layouts.mainLayout')
+@extends('layouts.belagsarbeitenLayouts')
 
 @section('content')
 
@@ -29,9 +29,5 @@
         </div>
     </div>
 </div>
-
-
-
-
 
 @endsection

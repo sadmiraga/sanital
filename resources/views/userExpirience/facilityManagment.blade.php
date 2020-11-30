@@ -9,7 +9,7 @@
     </div>
     <div class="facility-content">
         <div class="facility-h">
-            <h1>Die Firma Sanical AG</h1>
+            <h1>Die Firma Sanical AG,</h1>
             <h4>besitzt ein grosses Wissen an speziellen Reinigungsverfahren und wendet diese
             praxisorientiert an. Putzen kann jeder, aber Reinigung ist etwas ganz
             anderes. Die Branche Facility Management beinhaltet viele Untergruppierungen die wir Ihnen gerne einzeln erklären und
@@ -33,9 +33,9 @@
                         Zeit vergeuden, indem Sie noch die Baustelle sauber halten. Gebäudereiniger/Baureinigung übernehmen hier die
                         Verantwortung und führen die Grobreinigung aus in Absprache mit der
                         Bauleitung. Sie bestellen auf Wunsch auch Mulden und halten die Baustelle ordentlich bis die Endphase
-                        eintritte. Sobald das Objekt sich dem Ende nähert, wird es für die Übergabe vorbereitet.
-                        Die Gebäudereiniger reinigen mal alles komplette durch um ein Gesamtbild zu schaffee n. Sobald die
-                        Nacharbeiten abgeschlossen sind und die Schäden etc. beseitigt sind, tritte die
+                        eintritt. Sobald das Objekt sich dem Ende nähert, wird es für die Übergabe vorbereitet.
+                        Die Gebäudereiniger reinigen mal alles komplett durch um ein Gesamtbild zu schaffen. Sobald die
+                        Nacharbeiten abgeschlossen sind tritt die
                         Schlussreinigung ein und das Objekt wird abgenommen
                     </p>
                 </div>
@@ -46,12 +46,12 @@
                 <div class="col-sm">
                     <h2>Spezialreinigung: </h2>
                     <p>
-                        Chemie und verschieden Prozesse treffee n auf Oberflääche und dies wird bearbeitet. Nicht zu unterschätzen,
-                        da viele spezielle Steine oder teure Fassadenelemente gerettee t wurden, durch die
-                        richtige Behandlung. Je nach Material wird ein anderes Produkt verwendet mit einen PH-Wert um die
-                        Oberfläächenverschmutzung bis in die Poren zu entfernen. Reinigungsverfahren und
+                        Chemie und verschiedene Prozesse treffen dass auf der Oberfläche und dies wird bearbeitet. Nicht zu unterschätzen,
+                        dass viele spezielle Steine oder teure Fassadenelemente gerettet wurden, durch die
+                        richtige Behandlung. Je nach Material wird ein anderes Produkt verwendet mit den geeigneten PH-Wert um die
+                        Oberflächenverschmutzung bis in die Poren zu entfernen. Reinigungsverfahren und
                         Voraussetzungen wie: Temperatur, Produkt, Zeit und Verfahren müssen hierbei sehr gut beachtet werden. Auch
-                        mit ganz gefährlichen Stoffee n können wir hantieren um z.B Glasskratzer zu
+                        mit ganz gefährlichen Stoffen können wir hantieren um z.B Glasskratzer zu
                         entfernen
                     </p>
                 </div>
@@ -72,11 +72,11 @@
 
                 <h2>Fassadenreinigung: </h2>
                 <p>
-                    Unwettee r und Regen wie auch andere Einfläüsse, lassen die Fassade trotz allem mit der Zeit alt aussehen.
-                    Die Nachhaltigkeit wird durch Pfläege gewährleistet, deswegen müssen auch Fassaden
+                    Unwetter und Regen wie auch andere Einflüsse, lassen die Fassade trotz allem mit der Zeit alt aussehen.
+                    Die Nachhaltigkeit wird durch Pflege gewährleistet, deswegen müssen auch Fassaden
                     aller Art
-                    gereinigt werden. Ob es eine Glassfassade ist, oder Metall wie auch Stein, wir können alles reinigen und
-                    dies auch mit den dazugehörigen Mittee ln
+                    gereinigt werden. Ob es eine Glassfassade ist oder Metall wie auch Stein, wir können alles reinigen und
+                    dies auch mit den dazugehörigen Mitte ln
                 </p>
           </div>
       </div>
@@ -86,7 +86,7 @@
             <h2>Unterhaltsreinigung: </h2>
             <p>Die tägliche oder auch wöchentliche Büroreinigung, wie andere Räumlichkeiten sind uns kein Stein im Weg.
                 Gebäudereiniger im Bereich Unterhalt übernehmen die Aufgabe mit neutralem
-                Duftsr einiger Feinstaub zu entfernen und dies hygienisch zu tun. Nach Absprache mit dem Kunden werden Ihre
+                Duftreiniger Feinstaub zu entfernen und dies hygienisch zu tun. Nach Absprache mit dem Kunden werden Ihre
                 Bedürfnisse im Bereich Reinigung wahrgenommen und so umgesetzt, dass es
                 den ethischen und hygienischen Standarten entspricht.
             </p>
@@ -107,7 +107,7 @@
     <div class="col-sm">
         <h2>Liegenschaftsbetreuung: </h2>
         <p>
-            Umgebung, Liftse wie auch im Gebäude die Treppenhäuser und Gebäudezugänge müssen gereinigt werden. Es ist
+            Umgebung, Lifte wie auch im Gebäude die Treppenhäuser und Gebäudezugänge müssen gereinigt werden. Es ist
             nicht nur die Hygiene die hier eine grosse Rolle spielt, sondern auch die
             Sicherheit der Flucht-Wege ist hier auch gefragt. Ein Ansprechpartner wird diese Aufgabe übernehmen und dies
             für Sie nach den Vorgaben erfüllen.

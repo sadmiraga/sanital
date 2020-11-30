@@ -24,7 +24,7 @@ class accessAdmin
                 return redirect('/');
             }
         } else {
-            return redirect('/');
+            return redirect('/login');
         }
     }
 }
