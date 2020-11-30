@@ -81,14 +81,14 @@ Route::get('/liegenschaftsbetreuung', 'facilityController@liegenschaftsbetreuung
 //brandschutz routes
 Route::get('/brandschutz-references', 'brandschutzController@references');
 Route::get('/brandschutz-job', 'brandschutzController@job');
-Route::get('/brandschutz-uberuns', function(){
+Route::get('/brandschutz-uberuns', function () {
     return view('userExpirience.brandschutz.brandshutzUberuns');
 });
 
 //belagsarbeiten routes
 Route::get('/belagsarbeiten-references', 'belagsarbeitenController@references');
 Route::get('/belagsarbeiten-job', 'belagsarbeitenController@job');
-Route::get('/belagsarbeiten-uberuns',function(){
+Route::get('/belagsarbeiten-uberuns', function () {
     return view('userExpirience.belagsarbeiten.belagsarbeiten-uberuns');
 });
 

@@ -11,7 +11,7 @@ class belagsarbeitenController extends Controller
     public function references()
     {
         $references = reference::where('jobID', 3)->get();
-        return view('userExpirience.facility.facilityReferences')->with('references', $references);
+        return view('userExpirience.belagsarbeiten.belagsarbeitenReferences')->with('references', $references);
     }
 
     public function adminIndex()

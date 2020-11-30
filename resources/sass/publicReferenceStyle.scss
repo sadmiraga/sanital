@@ -64,7 +64,29 @@
     overflow: hidden;
 }
 
+.img_overlay_brand-brown {
+    position: relative;
+    overflow: hidden;
+}
+
 .img_overlay_brand:before {
+    content: "";
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: transparent\9;
+    background: #deb887;
+    opacity: 0.6;
+    z-index: 2;
+    transition: all 300ms;
+}
+
+.img_overlay_brand-brown {
     content: "";
     text-align: center;
     display: block;
