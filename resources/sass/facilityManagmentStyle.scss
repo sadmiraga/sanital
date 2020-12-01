@@ -1,6 +1,6 @@
 .hero-text-box-facility {
     width: 100%;
-    transform: translateY(-26vh);
+    transform: translateY(-8vh);
     background-color: rgba(1, 1, 1, 0.603);
     margin: auto;
     text-align: center;
@@ -15,7 +15,6 @@
 .facility-hero img {
     width: 100%;
     height: auto;
-    top: -150px;
     position: relative;
     z-index: -1;
 }
@@ -29,7 +28,6 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    transform: translateY(-10vh);
     padding: 5%;
 }
 
@@ -55,4 +53,23 @@
 
 .row {
     padding-top: 50px;
+}
+
+@media only screen and (max-width: 990px) {
+    .row1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .row2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .row3 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .row {
+        margin-top: 5%;
+    }
 }

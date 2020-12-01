@@ -14053,7 +14053,7 @@ li,
 
 .mobile-nav {
   display: none;
-  background-color: #6aabc1;
+  background-color: #2f5596 !important;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
   justify-content: flex-end;
   overflow: visible;
@@ -14081,7 +14081,7 @@ li,
   /* Stay on top */
   top: 0;
   right: 0;
-  color: #105561;
+  color: #2f5596 !important;
   background-color: white;
   /* Black*/
   overflow-x: hidden;
@@ -14098,7 +14098,7 @@ li,
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 1.5rem;
-  color: #6aabc1;
+  color: #2f5596 !important;
   display: block;
   transition: 0.3s;
 }
@@ -14122,7 +14122,7 @@ li,
 /* Style the button that is used to open the sidepanel */
 
 .openbtn {
-  background-color: #6aabc1;
+  background-color: #2f5596 !important;
   cursor: pointer;
   font-size: 50px;
   color: white;
@@ -14285,10 +14285,6 @@ li,
 
   #navbarID {
     display: none;
-  }
-
-  .mobile-nav {
-    display: block;
   }
 }
 
@@ -17365,6 +17361,7 @@ li,
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: absolute;
   overflow: visible;
   padding: 2px 5%;
   /* Large padding which will shrink on scroll (using JS) */
@@ -17664,7 +17661,7 @@ li,
     padding-left: 0%;
   }
 
-  #navbarID {
+  .header-facility {
     display: none;
   }
 
@@ -17833,6 +17830,20 @@ li,
   transition-delay: 0.1s;
 }
 
+@media only screen and (max-width: 930px) {
+  .index-cards {
+    display: block;
+  }
+
+  .snip1543 {
+    width: auto;
+  }
+
+  .snip1543 img {
+    width: 700px;
+  }
+}
+
 .text-block {
   position: relative;
   width: 100%;
@@ -17906,7 +17917,7 @@ li,
 
 .hero-text-box-facility {
   width: 100%;
-  transform: translateY(-26vh);
+  transform: translateY(-8vh);
   background-color: rgba(1, 1, 1, 0.603);
   margin: auto;
   text-align: center;
@@ -17922,7 +17933,6 @@ li,
 .facility-hero img {
   width: 100%;
   height: auto;
-  top: -150px;
   position: relative;
   z-index: -1;
 }
@@ -17936,7 +17946,6 @@ li,
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  transform: translateY(-10vh);
   padding: 5%;
 }
 
@@ -17962,6 +17971,27 @@ li,
 
 .row {
   padding-top: 50px;
+}
+
+@media only screen and (max-width: 990px) {
+  .row1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .row2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .row3 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .row {
+    margin-top: 5%;
+  }
 }
 
 .hero-text-box {
@@ -18027,7 +18057,6 @@ li,
 
 #publicJobText {
   background-color: white;
-  transform: translateY(-10vh);
   padding: 2%;
 }
 
@@ -18111,7 +18140,29 @@ li,
   overflow: hidden;
 }
 
+.img_overlay_brand-brown {
+  position: relative;
+  overflow: hidden;
+}
+
 .img_overlay_brand:before {
+  content: "";
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: black;
+  background: transparent\9;
+  background: #deb887;
+  opacity: 0.6;
+  z-index: 2;
+  transition: all 300ms;
+}
+
+.img_overlay_brand-brown {
   content: "";
   text-align: center;
   display: block;
@@ -18205,7 +18256,6 @@ li,
 .mapContainer {
   width: 850px;
   margin-right: 0px;
-  outline: 1px solid black;
 }
 
 @media only screen and (max-width: 1100px) {

@@ -175,3 +175,17 @@
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
 }
+
+@media only screen and (max-width: 930px) {
+    .index-cards {
+        display: block;
+    }
+
+    .snip1543 {
+        width: auto;
+    }
+
+    .snip1543 img {
+        width: 700px;
+    }
+}

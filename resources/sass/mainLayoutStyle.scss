@@ -102,7 +102,7 @@ li,
 
 .mobile-nav {
     display: none;
-    background-color: #6aabc1;
+    background-color: #2f5596 !important;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
     justify-content: flex-end;
     overflow: visible;
@@ -122,7 +122,7 @@ li,
     z-index: 1; /* Stay on top */
     top: 0;
     right: 0;
-    color: #105561;
+    color: #2f5596 !important;
     background-color: white; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
@@ -134,7 +134,7 @@ li,
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 1.5rem;
-    color: #6aabc1;
+    color: #2f5596 !important;
     display: block;
     transition: 0.3s;
 }
@@ -155,7 +155,7 @@ li,
 
 /* Style the button that is used to open the sidepanel */
 .openbtn {
-    background-color: #6aabc1;
+    background-color: #2f5596 !important;
     cursor: pointer;
     font-size: 50px;
     color: white;
@@ -317,9 +317,5 @@ li,
 
     #navbarID {
         display: none;
-    }
-
-    .mobile-nav {
-        display: block;
     }
 }

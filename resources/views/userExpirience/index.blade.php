@@ -2,7 +2,7 @@
 
 @section('content')
 
-<h1 style="text-align: center;margin-top:100px;">WILKOMMEN</h1>
+<h1 style="text-align: center;margin-top:20vh;">WILKOMMEN</h1>
 
 <div class="index-cards">
 <figure class="snip1543">
