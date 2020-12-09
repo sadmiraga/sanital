@@ -1,3 +1,48 @@
+.hero-image-facility-references {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("images/blueReference.png");
+
+    /* Set a specific height */
+    width: 100%;
+    height: 70vh;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image-facility-references {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("images/blueReference.png");
+
+    /* Set a specific height */
+    width: 100%;
+    height: 70vh;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image-belags-references {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("images/hajmars2.png");
+
+    /* Set a specific height */
+    width: 100%;
+    height: 70vh;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .img_overlay {
     position: relative;
     overflow: hidden;
@@ -80,7 +125,7 @@
     position: absolute;
     background: rgb(0, 0, 0);
     background: transparent\9;
-    background: #deb887;
+    background: red;
     opacity: 0.6;
     z-index: 2;
     transition: all 300ms;
@@ -110,4 +155,17 @@
 
 .img_overlay_brand:hover .categories-text {
     display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .container-fluid {
+        max-width: 500px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container-fluid {
+        max-width: 300px;
+        padding-left: 0px;
+    }
 }

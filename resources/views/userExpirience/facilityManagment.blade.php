@@ -110,7 +110,7 @@
         </div>
 
         <div class="row row3">
-            <div class="col-sm">
+            <div class="col-sm" style="margin-bottom: 10px">
                 <div class="facility-img">
                     <img src="/images/liegschaft.jpg" alt="Liegenschaftsbetreuung">
                 </div>

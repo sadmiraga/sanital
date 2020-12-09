@@ -8,12 +8,19 @@
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.603);
 }
 
-.brand-hero img {
+.hero-image-brand {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("images/crveno.png");
+
+    /* Set a specific height */
     width: 100%;
-    height: auto;
-    top: -120px;
+    height: 70vh;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    z-index: -1;
 }
 
 .hero-text-box h1 {
@@ -33,4 +40,19 @@
 
 .brand-content h4 {
     color: #223d6b;
+}
+.brand-tb {
+    padding-top: 51vh;
+}
+
+@media only screen and (max-width: 700px) {
+    .brand-tb h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .brand-tb h1 {
+        font-size: 2rem;
+    }
 }

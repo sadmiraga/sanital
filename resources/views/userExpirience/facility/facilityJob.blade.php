@@ -1,11 +1,10 @@
 @extends('layouts.facilityLayout')
 
 @section('content')
-    <div class="facility-hero">
-        <img src="/images/blueJobs.png" alt="img">
-    </div>
-    <div class="hero-text-box-facility">
-        <h1>Jobs</h1>
+    <div class="hero-image-facility-jobs">
+        <div class="hero-text-box-facility">
+            <h1>Jobs</h1>
+        </div>
     </div>
 
     <div class="jobsContainer">

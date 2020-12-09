@@ -18019,6 +18019,46 @@ li,
   }
 }
 
+@media only screen and (max-width: 930px) {
+  .container {
+    max-width: 500px;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .liegen-tb h1 {
+    font-size: 8vw !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-text-box-facility h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .hero-text-box-facility {
+    padding-top: 53vh;
+  }
+
+  .liegen-tb {
+    padding-top: 63vh;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .facility-img img {
+    width: 100%;
+  }
+}
+
 .hero-text-box {
   transform: translateY(-400px);
   background-color: white;
@@ -18029,12 +18069,17 @@ li,
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.603);
 }
 
-.brand-hero img {
+.hero-image-brand {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/crveno.png?30518fda7d0320005e7f646520525a56);
+  /* Set a specific height */
   width: 100%;
-  height: auto;
-  top: -120px;
+  height: 70vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  z-index: -1;
 }
 
 .hero-text-box h1 {
@@ -18054,6 +18099,22 @@ li,
 
 .brand-content h4 {
   color: #223d6b;
+}
+
+.brand-tb {
+  padding-top: 51vh;
+}
+
+@media only screen and (max-width: 700px) {
+  .brand-tb h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .brand-tb h1 {
+    font-size: 2rem;
+  }
 }
 
 .jobsContainer {
@@ -18094,6 +18155,45 @@ li,
 
 .jobTitle {
   text-align: center;
+}
+
+.hero-image-facility-references {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/blueReference.png?695597726ff08a729b35c9551b034371);
+  /* Set a specific height */
+  width: 100%;
+  height: 70vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image-facility-references {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/blueReference.png?695597726ff08a729b35c9551b034371);
+  /* Set a specific height */
+  width: 100%;
+  height: 70vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image-belags-references {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/hajmars2.png?df8194a79865df9e7fd2ee1a1b95b991);
+  /* Set a specific height */
+  width: 100%;
+  height: 70vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .img_overlay {
@@ -18181,7 +18281,7 @@ li,
   position: absolute;
   background: black;
   background: transparent\9;
-  background: #deb887;
+  background: red;
   opacity: 0.6;
   z-index: 2;
   transition: all 300ms;
@@ -18211,6 +18311,53 @@ li,
 
 .img_overlay_brand:hover .categories-text {
   display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .container-fluid,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container-fluid,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 300px;
+    padding-left: 0px;
+  }
+}
+
+.hero-image-facility-jobs {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/blueJobs.png?7f422301a5deadab9aa11a502622fa20);
+  /* Set a specific height */
+  width: 100%;
+  height: 70vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image-brand-jobs {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/redJobs.png?f39085646c548af43c302d863fc382e1);
+  /* Set a specific height */
+  width: 100%;
+  height: 70vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .jobs-hero .hero-text-box {
@@ -18313,6 +18460,19 @@ li,
 .facility-uberuns-content {
   max-width: 1100px;
   margin: auto;
+}
+
+.hero-image-facility-uberuns {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/blueOurTeam.png?602ebc48a51a2c068dbd7b12da6735ee);
+  /* Set a specific height */
+  width: 100%;
+  height: 70vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .uberuns-cards {
@@ -18464,9 +18624,28 @@ li,
   transition-delay: 0.1s;
 }
 
+@media only screen and (max-width: 700px) {
+  .uberuns-cards {
+    flex-direction: column;
+  }
+}
+
 .facility-uberuns-content {
   max-width: 1100px;
   margin: auto;
+}
+
+.hero-image-brand-uberuns {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/redOurTeam.png?72e423c09d1e84be298f4da5d0b21290);
+  /* Set a specific height */
+  width: 100%;
+  height: 70vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .uberuns-cards {
@@ -18623,6 +18802,19 @@ li,
   margin: auto;
 }
 
+.hero-image-belags-uberuns {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/brownOurTeam.png?ae085af489922ce01ba4a235c985bf99);
+  /* Set a specific height */
+  width: 100%;
+  height: 70vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .uberuns-cards {
   max-width: 1100px;
   margin-left: auto;
@@ -18770,5 +18962,34 @@ li,
 .snip1546.hover figcaption:after {
   transform: skew(-30deg) translateX(-30%);
   transition-delay: 0.1s;
+}
+
+.hero-image-belags {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/brownBelagsarbeiten.png?18414935132fbf2baebc3e45e095e03f);
+  /* Set a specific height */
+  width: 100%;
+  height: 70vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.belags-tb {
+  padding-top: 52vh;
+}
+
+@media only screen and (max-width: 520px) {
+  .belags-tb h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .belags-tb {
+    padding-top: 46vh;
+  }
 }
 

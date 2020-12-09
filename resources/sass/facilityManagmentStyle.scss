@@ -81,3 +81,43 @@
         margin-top: 5%;
     }
 }
+
+@media only screen and (max-width: 930px) {
+    .container {
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .liegen-tb h1 {
+        font-size: 8vw !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-text-box-facility h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .hero-text-box-facility {
+        padding-top: 53vh;
+    }
+
+    .liegen-tb {
+        padding-top: 63vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .facility-img img {
+        width: 100%;
+    }
+}

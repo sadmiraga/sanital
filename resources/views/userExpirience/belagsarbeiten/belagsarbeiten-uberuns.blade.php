@@ -1,17 +1,16 @@
 @extends('layouts.belagsarbeitenLayouts')
 @section('content')
-    <div class="facility-hero">
-        <img src="/images/brownOurTeam.png" alt="img">
+    <div class="hero-image-belags-uberuns">
+        <div class="hero-text-box-facility">
+            <h1>Über Uns</h1>
+        </div>
     </div>
-    <div class="hero-text-box-facility">
-        <h1>Über Uns</h1>
-    </div>
+
     <div class="facility-content">
         <div class="facility-h" style="margin-bottom: 4%">
             <h1>Sanical AG - Wer sind wir?</h1>
-            <h4>besitzt ein grosses Wissen an speziellen Reinigungsverfahren und wendet diese praxisorientiert an.
-                Putzen kann jeder, aber Reinigung ist etwas ganz anderes. Die Branche Facility Management beinhaltet viele
-                Untergruppierungen die wir Ihnen gerne einzeln erklären und gerne anbieten:</h4>
+            <h4>Die Sanical AG findet Ihren Fuss früher im Sanitärbereich und
+                wurde später dann umstrukturiert zum Stand heute:</h4>
         </div>
         <div class="uberuns-cards">
             <figure class="snip1546">
@@ -54,19 +53,22 @@
             );
 
         </script>
+        <div class="facility-uberuns-content" style="margin-bottom: 10vh; margin-top: 2vh;">
+            <h4>Die Beziehungen mit den Generalunternehmern erlauben es uns, an grossen Projekten teilzuhaben und diese zum
+                Glanz hervorzubringen.
+                Langer Aufbau brachteuns zu diesem Stand und erlaubt es alle Werke direkt mit den Generalunternehmern
+                auszuführen zu können.
+                Die Zielsetzung der Sanical AG ist es ein Paket anzubieten, über ein Netzwerk von Leuten, die engagiert sind
+                sich
+                den Projekten zu widmen und diese Perfekt ausführen. Sie haben ein Problem Sanical AG ist die Lösung! Weil
+                wir
+                nicht nur die
+                einfache Dienstleistung anbieten, lässt uns das Au fleuchten.
+                Das Hineinversetzen der Mitarbeiter von Sanical AG ist eine Einstellung die nicht viele mit sich bringen.
+            </h4>
+        </div>
+
     </div>
-    <div class="facility-uberuns-content" style="margin-bottom: 10vh; margin-top: -10vh;">
-        <h4>Die Beziehungen mit den Generalunternehmern erlauben es uns, an grossen Projekten teilzuhaben und diese zum
-            Glanz hervorzubringen.
-            Langer Aufbaa u bracht uns zu diesem Stand und erlaubt es alle Werke direkt mit den Generalunternehmern
-            auszuführen zu können.
-            Die Zielsetzung der Sanical AG ist es ein Paket anzubieten, über ein Netzwerk von Leuten, die engagiert sind
-            sich
-            den Projekten zu widmen und diese Perfekt auszuführen. Sie haben ein Problem Sanical AG ist die Lösung! Weil wir
-            nicht nur die
-            einfache Dienstleistung anbieten, lässt uns das Au fläeuchten.
-            Das Hineinversetzen der Mitarbeiter von Sanical AG ist eine Einstellung die nicht viele mit sich bringen.</h4>
-    </div>
-    </div>
+
 
 @endsection

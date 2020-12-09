@@ -60,7 +60,7 @@
             );
 
         </script>
-        <p>
+        <p style="margin-top: 2vh;">
             Die Beziehungen mit den Generalunternehmern erlauben es uns, an grossen Projekten teilzuhaben und diese zum
             Glanz hervorzubringen. Langer Aufbaa u bracht uns zu diesem Stand und
             erlaubt es alle Werke direkt mit den Generalunternehmern auszuführen zu können. Die Zielsetzung der Sanical

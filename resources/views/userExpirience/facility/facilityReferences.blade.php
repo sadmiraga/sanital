@@ -1,8 +1,7 @@
 @extends('layouts.facilityLayout')
 
 @section('content')
-    <div class="facility-hero">
-        <img src="/images/blueReference.png" alt="img">
+    <div class="hero-image-facility-references">
         <div class="hero-text-box-facility">
             <h1>Referenzen</h1>
         </div>
