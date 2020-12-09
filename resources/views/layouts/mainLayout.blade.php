@@ -39,7 +39,7 @@
         <img class="logo" id="logoID" src="/images/logoSanital.png" alt="logo" onclick="window.location.href='/index'">
         <nav>
             <ul class="nav-links">
-                <li class="navbar-li"><a id="home" href="/facility-managment">Facility Managment</a></li>
+                <li class="navbar-li"><a id="home" href="/facility-managment">Facility Management</a></li>
                 <li class="navbar-li"><a id="uberuns"
                         href="/brandschutz-wasserloschanlagen">Brandschutz/Wasserlöschanlagen</a></li>
                 <li class="navbar-li"><a id="referenzen" href="/belagsarbeiten-und-bodenbelage">Belagsarbeiten und
@@ -53,7 +53,7 @@
 
     <div class="mobile-nav">
         <div id="mySidepanel" class="sidepanel">
-            <a href="/facility-managment">Facility Managment</a>
+            <a href="/facility-managment">Facility Management</a>
             <a href="/brandschutz-wasserloschanlagen">Brandschutz/Wasserlöschanlagen</a>
             <a href="/belagsarbeiten-und-bodenbelage">Belagsarbeiten und
                 Bodenbeläge</a>
@@ -96,7 +96,7 @@
             <div class="footer-items">
                 <ul class="footer-ul">
                     <a class="footer-link" href="/facility-managment">
-                        <li class="footer-li">Facility managment</li>
+                        <li class="footer-li">Facility Management</li>
                     </a>
                     <a class="footer-link" href="/brandschutz-wasserloschanlagen">
                         <li class="footer-li">Brandschutz/Wasserlöschanlagen</li>

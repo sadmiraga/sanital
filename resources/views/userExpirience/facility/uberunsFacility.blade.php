@@ -4,7 +4,7 @@
         <img src="/images/blueOurTeam.png" alt="img">
     </div>
     <div class="hero-text-box-facility">
-        <h1>Uber Uns</h1>
+        <h1>Über Uns</h1>
     </div>
     <div class="facility-content">
         <div class="facility-h" style="margin-bottom: 4%">
@@ -16,7 +16,7 @@
             <figure class="snip1544">
                 <img src="/images/fassade.jpg" alt="sample108" />
                 <figcaption>
-                    <h3>Facility Managment</h3>
+                    <h3>Facility Management</h3>
                     <p>Baureinigung<br>Spezialreinigung<br>Fassadenreinigung<br>Grundreinigung<br>Unterhaltsreinigung<br>Liegenschaftss
                         betreuunge</p>
                 </figcaption>

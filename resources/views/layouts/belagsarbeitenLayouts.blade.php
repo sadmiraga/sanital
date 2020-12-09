@@ -35,14 +35,16 @@
         <img onclick="location.href='/'" class="logo" id="logoID" src="/images/logoSanitalWhite.png" alt="logo">
         <nav>
             <ul class="nav-links-facility">
-                <li class="navbar-li-facility"><a id="home-facility" href="/belagsarbeiten-und-bodenbelage">Belagsarbeiten und Bodenbelage</a></li>
+                <li class="navbar-li-facility"><a id="home-facility"
+                        href="/belagsarbeiten-und-bodenbelage">Belagsarbeiten und Bodenbelage</a></li>
                 <li class="navbar-li-facility"><a id="uberuns-facility" href="/belagsarbeiten-uberuns">Über uns</a></li>
-                <li class="navbar-li-facility"><a id="referenzen-facility" href="/belagsarbeiten-references">Referenzen</a></li>
+                <li class="navbar-li-facility"><a id="referenzen-facility"
+                        href="/belagsarbeiten-references">Referenzen</a></li>
                 <li class="navbar-li-facility"><a id="jobs-facility" href="/belagsarbeiten-job">Jobs</a></li>
                 <li class="navbar-li-facility"><a id="jobs-facility" href="/kontakt">Kontakt</a></li>
         </nav>
     </header>
-<!--
+    <!--
     <div class="mobile-nav">
         <div id="mySidepanel" class="sidepanel">
             <a href="#">Home</a>
@@ -77,7 +79,7 @@
             <div class="footer-items">
                 <ul class="footer-ul">
                     <a class="footer-link" href="/facility-managment">
-                        <li class="footer-li">Facility managment</li>
+                        <li class="footer-li">Facility Management</li>
                     </a>
                     <a class="footer-link" href="/brandschutz-wasserloschanlagen">
                         <li class="footer-li">Brandschutz/Wasserlöschanlagen</li>
@@ -112,11 +114,8 @@
 
                 <!--   for social links -->
                 <div class="social-media">
-                    <a href="#"><i
-                            class="fa fa-facebook"></i></a>
-                    <a
-                        href=""><i
-                            class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
                     <a href="kontakt.html"><i class="fa fa-envelope"></i></a>
                 </div>
             </div>
@@ -125,9 +124,10 @@
         <!--   Footer Bottom start  -->
         <div class="footer-bottom" style="text-align: center !important">Copyright &copy; Screnshoot 2020</div>
         <script>
-        AOS.init({
-            duration: 1200,
-        })
+            AOS.init({
+                duration: 1200,
+            })
+
         </script>
 </body>
 

@@ -49,7 +49,7 @@
 
     <div class="mobile-nav">
         <div id="mySidepanel" class="sidepanel">
-            <a href="/facility-managment">Facility Managment</a>
+            <a href="/facility-managment">Facility Management</a>
             <a href="/brandschutz-wasserloschanlagen">Brandschutz/Wasserlöschanlagen</a>
             <a href="/belagsarbeiten-und-bodenbelage">Belagsarbeiten und
                 Bodenbeläge</a>
@@ -91,7 +91,7 @@
             <div class="footer-items">
                 <ul class="footer-ul">
                     <a class="footer-link" href="/facility-managment">
-                        <li class="footer-li">Facility managment</li>
+                        <li class="footer-li">Facility Management</li>
                     </a>
                     <a class="footer-link" href="/brandschutz-wasserloschanlagen">
                         <li class="footer-li">Brandschutz/Wasserlöschanlagen</li>

@@ -5,7 +5,7 @@
         <img src="/images/blueFacility.png" alt="img">
     </div>
     <div class="hero-text-box-facility">
-        <h1>Facility Managment</h1>
+        <h1>Facility Management</h1>
     </div>
     <div class="facility-content">
         <div class="facility-h">

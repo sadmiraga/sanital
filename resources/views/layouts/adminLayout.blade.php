@@ -28,7 +28,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <!-- Scripts -->
-    <script type="text/javascript" src="{{URL::to('js/mainLayoutJS.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::to('js/mainLayoutJS.js') }}"></script>
 
 </head>
 
@@ -39,8 +39,9 @@
         <img class="logo" id="logoID" src="/images/logoSanital.png" alt="logo">
         <nav>
             <ul class="nav-links">
-                <li class="navbar-li"><a id="uberuns" href="/admin-facility">Facility <br> Managment</a></li>
-                <li class="navbar-li"><a id="referenzen" href="/admin-brandschutz">Brandschutz <br>Wasserlöschanlagen</a></li>
+                <li class="navbar-li"><a id="uberuns" href="/admin-facility">Facility <br> Management</a></li>
+                <li class="navbar-li"><a id="referenzen" href="/admin-brandschutz">Brandschutz
+                        <br>Wasserlöschanlagen</a></li>
                 <li class="navbar-li"><a id="jobs" href="/admin-belagsarbeiten">Belagsarbeiten <br> Bodenbeläge</a></li>
 
         </nav>
@@ -131,9 +132,10 @@
         <!--   Footer Bottom start  -->
         <div class="footer-bottom">Copyright &copy; Screnshoot 2020</div>
         <script>
-        AOS.init({
-            duration: 1200,
-        })
+            AOS.init({
+                duration: 1200,
+            })
+
         </script>
 </body>
 
