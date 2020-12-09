@@ -17832,6 +17832,7 @@ li,
 
 @media only screen and (max-width: 930px) {
   .index-cards {
+    max-width: 500px;
     display: block;
   }
 
@@ -17840,7 +17841,26 @@ li,
   }
 
   .snip1543 img {
-    width: 700px;
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .index-cards {
+    max-width: 300px;
+    display: block;
+  }
+
+  .snip1543 {
+    width: auto;
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .snip1543 img {
+    width: 300px;
+    height: 300px;
   }
 }
 
@@ -17917,12 +17937,9 @@ li,
 
 .hero-text-box-facility {
   width: 100%;
-  transform: translateY(-8vh);
-  background-color: rgba(1, 1, 1, 0.603);
   margin: auto;
   text-align: center;
-  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.603);
-  position: absolute;
+  padding-top: 61vh;
 }
 
 .hero-text-box-facility h1 {
@@ -17930,16 +17947,24 @@ li,
   color: white;
 }
 
-.facility-hero img {
-  width: 100%;
-  height: auto;
-  position: relative;
-  z-index: -1;
-}
-
 .container {
   padding-top: 5%;
 }
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/blueFacility.png?d9af1b5177d5335bc2162f0502295168);
+  /* Set a specific height */
+  width: 100%;
+  height: 70vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
 
 .facility-content {
   background-color: white;
