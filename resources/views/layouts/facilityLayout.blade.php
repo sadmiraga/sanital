@@ -49,10 +49,9 @@
     <div class="mobile-nav">
         <div id="mySidepanel" class="sidepanel">
             <a href="/facility-managment">Facility Management</a>
-            <a href="/brandschutz-wasserloschanlagen">Brandschutz/Wasserlöschanlagen</a>
-            <a href="/belagsarbeiten-und-bodenbelage">Belagsarbeiten und
-                Bodenbeläge</a>
-            <a href="/contact">Kontakt</a>
+            <a id="uberuns-facility" href="/facility-managment-uberuns">Über uns</a>
+            <a id="referenzen-facility" href="/facility-references">Referenzen</a>
+            <a id="jobs-facility" href="/kontakt">Kontakt</a>
             <a href="pavascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         </div>
         <div class="mobile-nav-wrap-outter">

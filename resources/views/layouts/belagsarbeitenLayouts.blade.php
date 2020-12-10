@@ -44,25 +44,35 @@
                 <li class="navbar-li-facility"><a id="jobs-facility" href="/kontakt">Kontakt</a></li>
         </nav>
     </header>
-    <!--
+
     <div class="mobile-nav">
         <div id="mySidepanel" class="sidepanel">
-            <a href="#">Home</a>
-            <a href="/products">Über uns</a>
-            <a href="/about">Referenzen</a>
-            <a href="/contact">Jobs</a>
-            <a href="/contact">Kontakt</a>
+            <a id="home-facility" href="/belagsarbeiten-und-bodenbelage">Belagsarbeiten und Bodenbelage</a>
+            <a id="uberuns-facility" href="/belagsarbeiten-uberuns">Über uns</a>
+            <a id="referenzen-facility" href="/belagsarbeiten-references">Referenzen</a>
+            <a id="jobs-facility" href="/belagsarbeiten-job">Jobs</a>
+            <a id="jobs-facility" href="/kontakt">Kontakt</a>
+            <a href="pavascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         </div>
-        <a href="pavascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    </div>
-    <div class="mobile-nav-wrap-outter">
-        <div class="mobile-nav-wrap-inner">
-            <img class="logo" id="logoID" src="/images/logoSanitalWhite.png" alt="logo">
+        <div class="mobile-nav-wrap-outter">
+            <div class="mobile-nav-wrap-inner">
+                <img class="logo" id="logoID" src="/images/logoSanitalWhite.png" alt="logo">
 
-            <button class="openbtn" onclick="openNav()">&#9776;</button>
+                <button class="openbtn" onclick="openNav()">&#9776;</button>
+            </div>
         </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidepanel").style.width = "50%";
+            }
+
+            /* Set the width of the sidebar to 0 (hide it) */
+            function closeNav() {
+                document.getElementById("mySidepanel").style.width = "0";
+            }
+
+        </script>
     </div>
-    !-->
 
     @yield('content')
 

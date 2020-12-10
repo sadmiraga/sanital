@@ -49,11 +49,11 @@
 
     <div class="mobile-nav">
         <div id="mySidepanel" class="sidepanel">
-            <a href="/facility-managment">Facility Management</a>
-            <a href="/brandschutz-wasserloschanlagen">Brandschutz/Wasserlöschanlagen</a>
-            <a href="/belagsarbeiten-und-bodenbelage">Belagsarbeiten und
-                Bodenbeläge</a>
-            <a href="/contact">Kontakt</a>
+            <a href="/brandschutz-wasserloschanlagen">Brandschutz <br> Wasserlöschanlagen</a>
+            <a id="jobs-facility" href="/brandschutz-uberuns">Über uns</a>
+            <a id="jobs-facility" href="/brandschutz-references">Referenzen</a>
+            <a id="jobs-facility" href="/brandschutz-job">Jobs</a>
+            <a id="jobs-facility" href="/kontakt">Kontakt</a>
             <a href="pavascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         </div>
         <div class="mobile-nav-wrap-outter">
